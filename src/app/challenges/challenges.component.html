@@ -1,1 +1,7 @@
-<p>challenges works!</p>
+<h2>Challenges</h2>
+<ul class="challenges">
+  <li *ngFor="let challenge of challenges"
+    (click)="onSelect(challenge)">
+    <span>{{challenge.challengeId}}</span> {{challenge.name | uppercase}}
+  </li>
+</ul>
