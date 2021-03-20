@@ -7,6 +7,16 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  html {
+    position: relative;
+    min-height: 100%
+  }
+
+  body {
+    margin-bottom: 60px;
+    padding-bottom: 25px
+  }
+
   h1,
   h2,
   h3,
@@ -227,41 +237,24 @@
   }
 
   footer {
-    margin-top: 8px;
-    display: flex;
-    align-items: center;
-    line-height: 20px;
+    position: absolute;
+    padding: 18px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    background-color: #f5f5f5;
+    font-size: 11px;
+    color: #4C5760
   }
 
-  footer a {
-    display: flex;
-    align-items: center;
+  footer a, footer a:hover, footer a:focus {
+    font-weight: normal;
+    color: #4C5760
   }
 
-  .github-star-badge {
-    color: #24292e;
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    padding: 3px 10px;
-    border: 1px solid rgba(27,31,35,.2);
-    border-radius: 3px;
-    background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
-    margin-left: 4px;
-    font-weight: 600;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-  }
-
-  .github-star-badge:hover {
-    background-image: linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%);
-    border-color: rgba(27,31,35,.35);
-    background-position: -.5em;
-  }
-
-  .github-star-badge .material-icons {
-    height: 16px;
-    width: 16px;
-    margin-right: 4px;
+  div#heart {
+    margin-top: 10px
   }
 
   svg#clouds {

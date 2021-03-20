@@ -7,6 +7,7 @@ import { ChallengesComponent } from './challenges/challenges.component';
 import { OrganizationsComponent } from './organizations/organizations.component';
 import { ExploreComponent } from './explore/explore.component';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './home/home.component';
     ChallengesComponent,
     OrganizationsComponent,
     ExploreComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

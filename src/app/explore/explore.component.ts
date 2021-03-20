@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExploreComponent implements OnInit {
 
+  title = 'Explore the ROCC';
+
   constructor() { }
 
   ngOnInit(): void {
