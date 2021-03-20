@@ -1,1 +1,13 @@
 <h1>{{title}}</h1>
+
+<div class="card-container">
+    <div class="card" *ngFor="let challenge of challenges" (click)="onSelect(challenge)">
+        <h3>{{challenge.name}}</h3>
+    </div>
+</div>
+
+<div *ngIf="selectedChallenge">
+    <h3>Quick info:</h3>
+    <h4>{{selectedChallenge.name}}</h4>
+    <p><em>{{selectedChallenge.id}}</em></p>
+</div>

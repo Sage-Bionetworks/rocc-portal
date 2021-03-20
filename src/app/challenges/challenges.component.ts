@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Challenge } from '../challenge';
+import { CHALLENGES } from '../mock-challenges';
 
 @Component({
   selector: 'app-challenges',
@@ -8,6 +10,12 @@ import { Component, OnInit } from '@angular/core';
 export class ChallengesComponent implements OnInit {
 
   title = 'Challenges';
+  challenges = CHALLENGES;
+
+  selectedChallenge?: Challenge;
+  onSelect(challenge: Challenge): void {
+    this.selectedChallenge = challenge;
+  }
 
   constructor() { }
 
