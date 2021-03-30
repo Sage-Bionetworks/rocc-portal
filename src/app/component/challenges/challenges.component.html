@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+
+<div class="challenge-card" *ngFor="let challenge of challenges" (click)="onSelect(challenge)">
+    <h3>{{challenge.name}}</h3>
+    <button class="tag-btn" *ngFor="let tag of challenge.tags">{{tag}}</button>
+    <p><strong>Start:</strong> {{challenge.start_date}}</p>
+    <p><strong>End:</strong> {{challenge.end_date}}</p>
+</div>
+
+<app-challenge-detail [challenge]="selectedChallenge"></app-challenge-detail>
