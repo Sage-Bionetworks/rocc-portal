@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { ORGANIZATIONS } from '../../mock-organizations';
+
 @Component({
   selector: 'app-organizations',
   templateUrl: './organizations.component.html',
@@ -8,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class OrganizationsComponent implements OnInit {
 
   title = 'Organizations';
+  organizations = ORGANIZATIONS;
 
   constructor() { }
 

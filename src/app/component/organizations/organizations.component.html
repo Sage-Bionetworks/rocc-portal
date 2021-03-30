@@ -1,1 +1,7 @@
 <h1>{{title}}</h1>
+
+<div class="challenge-card" *ngFor="let organization of organizations">
+    <h3>{{organization.name}}</h3>
+    <p><em>{{organization.short_name}}</em></p>
+    <p><strong>URL:</strong> {{organization.url}}</p>
+</div>
