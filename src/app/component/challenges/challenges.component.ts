@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Challenge } from '../challenge';
-import { CHALLENGES } from '../mock-challenges';
+
+import { Challenge } from '../../model/challenge';
+import { CHALLENGES } from '../../mock-challenges';
 
 @Component({
   selector: 'app-challenges',
