@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Challenge } from '../../model/challenge';
+import { Challenge } from '@sage-bionetworks/rocc-angular/model/challenge'
+// import { Challenge } from '../../model/challenge';
 import { CHALLENGES } from '../../mock-challenges';
 
 @Component({
