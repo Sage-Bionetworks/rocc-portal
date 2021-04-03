@@ -5,7 +5,7 @@ import { Challenge } from '@sage-bionetworks/rocc-angular/model/challenge'
 import { CHALLENGES } from '../../mock-challenges';
 
 @Component({
-    selector: 'app-challenges',
+    selector: 'rocc-challenges',
     templateUrl: './challenges.component.html',
     styleUrls: ['./challenges.component.scss']
 })

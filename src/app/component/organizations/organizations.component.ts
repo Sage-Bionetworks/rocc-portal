@@ -4,7 +4,7 @@ import { Organization } from '@sage-bionetworks/rocc-angular/model/organization'
 import { ORGANIZATIONS } from '../../mock-organizations';
 
 @Component({
-    selector: 'app-organizations',
+    selector: 'rocc-organizations',
     templateUrl: './organizations.component.html',
     styleUrls: ['./organizations.component.scss']
 })
