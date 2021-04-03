@@ -1,8 +1,9 @@
-import { NgModule } from '@angular/core';
+import { InjectionToken, NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { ApiModule, Configuration, ConfigurationParameters } from '@sage-bionetworks/rocc-angular';
-import { HttpClientModule } from '@angular/common/http';
+import { BASE_PATH } from '@sage-bionetworks/rocc-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,8 @@ import { OrganizationsComponent } from './component/organizations/organizations.
 import { HomeComponent } from './component/home/home.component';
 import { AboutComponent } from './component/about/about.component';
 import { ChallengeDetailComponent } from './component/challenge-detail/challenge-detail.component';
+
+import { environment } from '../environments/environment';
 
 export function apiConfigFactory (): Configuration {
   const params: ConfigurationParameters = {
@@ -34,7 +37,9 @@ export function apiConfigFactory (): Configuration {
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    { provide: BASE_PATH, useValue: environment.apiBasePath }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
