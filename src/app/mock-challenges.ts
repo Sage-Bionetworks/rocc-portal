@@ -41,202 +41,202 @@ export const CHALLENGES: Challenge[] = [
             "n_participants": 229
         }
     },
-    {
-        "name": "Whole-Cell Parameter Estimation",
-        "start_date": "2013-06-10",
-        "end_date": "2013-09-23",
-        "url": "https://www.synapse.org/#!Synapse:syn1876068",
-        "status": "closed",
-        "tags": [
-            "whole-cell-parameter"
-        ],
-        "organizers": [
-            {
-                "first_name": "Brandon",
-                "last_name": "Allgood",
-                "organizations": [
-                    "Numerate"
-                ]
-            },
-            {
-                "first_name": "Christian",
-                "last_name": "Basile",
-                "organizations": [
-                    "Urban Green Energy"
-                ]
-            },
-            {
-                "first_name": "Brian",
-                "last_name": "Bot",
-                "organizations": [
-                    "Sage Bionetworks"
-                ]
-            },
-            {
-                "first_name": "Deepak",
-                "last_name": "Chandran",
-                "organizations": [
-                    "Autodesk"
-                ]
-            },
-            {
-                "first_name": "Thomas",
-                "last_name": "Cokelaer",
-                "organizations": [
-                    "European Bioinformatics Institute"
-                ]
-            },
-            {
-                "first_name": "Markus",
-                "last_name": "Covert",
-                "organizations": [
-                    "Stanford University"
-                ]
-            },
-            {
-                "first_name": "Bruce",
-                "last_name": "Hoff",
-                "organizations": [
-                    "Sage Bionetworks"
-                ]
-            },
-            {
-                "first_name": "Jay",
-                "last_name": "Hodgson",
-                "organizations": [
-                    "Sage Bionetworks"
-                ]
-            },
-            {
-                "first_name": "Jonathan",
-                "last_name": "Karr",
-                "organizations": [
-                    "Stanford University"
-                ]
-            },
-            {
-                "first_name": "Mike",
-                "last_name": "Kellen",
-                "organizations": [
-                    "Sage Bionetworks"
-                ]
-            },
-            {
-                "first_name": "Po-Ru",
-                "last_name": "Loh",
-                "organizations": [
-                    "Massachusetts Institute of Technology"
-                ]
-            },
-            {
-                "first_name": "Thea",
-                "last_name": "Norman",
-                "organizations": [
-                    "Sage Bionetworks"
-                ]
-            },
-            {
-                "first_name": "Kahn",
-                "last_name": "Rhrissorrakrai",
-                "organizations": [
-                    "IBM Research"
-                ]
-            },
-            {
-                "first_name": "Pablo",
-                "last_name": "Meyer",
-                "organizations": [
-                    "IBM Research"
-                ]
-            },
-            {
-                "first_name": "Julio",
-                "last_name": "Saez-Rodriguez",
-                "organizations": [
-                    "Heidelberg University",
-                    "European Bioinformatics Institute",
-                    "RWTH Aachen University"
-                ]
-            },
-            {
-                "first_name": "Gustavo",
-                "last_name": "Stolovitzky",
-                "organizations": [
-                    "Mount Sinai",
-                    "IBM Research"
-                ]
-            },
-            {
-                "first_name": "Alejandro",
-                "last_name": "Villaverde",
-                "organizations": [
-                    "Consejo Superior de Investigaciones Cientificas"
-                ]
-            },
-            {
-                "first_name": "Simon",
-                "last_name": "Wilkinson",
-                "organizations": [
-                    "Numerate"
-                ]
-            },
-            {
-                "first_name": "Jessen",
-                "last_name": "Yu",
-                "organizations": [
-                    "Numerate"
-                ]
-            }
-        ],
-        "organizations": [
-            {
-                "name": "Numerate",
-                "url": "http://www.numerate.com/"
-            },
-            {
-                "name": "Urban Green Energy",
-                "url": "https://www.ugei.com/",
-                "short_name": "UGE"
-            },
-            {
-                "name": "Sage Bionetworks",
-                "url": "https://sagebionetworks.org/",
-                "short_name": "Sage"
-            },
-            {
-                "name": "Autodesk",
-                "url": "https://www.autodesk.com/"
-            },
-            {
-                "name": "European Bioinformatics Institute",
-                "url": "https://www.ebi.ac.uk/",
-                "short_name": "EMBL-EBI"
-            },
-            {
-                "name": "Stanford University",
-                "url": "https://www.stanford.edu/",
-                "short_name": "Stanford"
-            },
-            {
-                "name": "Massachusetts Institute of Technology",
-                "url": "https://www.mit.edu/",
-                "short_name": "MIT"
-            },
-            {
-                "name": "IBM Research",
-                "url": "https://www.research.ibm.com/"
-            },
-            {
-                "name": "Consejo Superior de Investigaciones Cientificas",
-                "url": "https://www.csic.es/",
-                "short_name": "CSIC"
-            }
-        ],
-        "challenge_results": {
-            "n_submissions": 23,
-            "n_participants": 104
-        }
-    },
+    // {
+    //     "name": "Whole-Cell Parameter Estimation",
+    //     "start_date": "2013-06-10",
+    //     "end_date": "2013-09-23",
+    //     "url": "https://www.synapse.org/#!Synapse:syn1876068",
+    //     "status": "closed",
+    //     "tags": [
+    //         "whole-cell-parameter"
+    //     ],
+    //     "organizers": [
+    //         {
+    //             "first_name": "Brandon",
+    //             "last_name": "Allgood",
+    //             "organizations": [
+    //                 "Numerate"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Christian",
+    //             "last_name": "Basile",
+    //             "organizations": [
+    //                 "Urban Green Energy"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Brian",
+    //             "last_name": "Bot",
+    //             "organizations": [
+    //                 "Sage Bionetworks"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Deepak",
+    //             "last_name": "Chandran",
+    //             "organizations": [
+    //                 "Autodesk"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Thomas",
+    //             "last_name": "Cokelaer",
+    //             "organizations": [
+    //                 "European Bioinformatics Institute"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Markus",
+    //             "last_name": "Covert",
+    //             "organizations": [
+    //                 "Stanford University"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Bruce",
+    //             "last_name": "Hoff",
+    //             "organizations": [
+    //                 "Sage Bionetworks"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Jay",
+    //             "last_name": "Hodgson",
+    //             "organizations": [
+    //                 "Sage Bionetworks"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Jonathan",
+    //             "last_name": "Karr",
+    //             "organizations": [
+    //                 "Stanford University"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Mike",
+    //             "last_name": "Kellen",
+    //             "organizations": [
+    //                 "Sage Bionetworks"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Po-Ru",
+    //             "last_name": "Loh",
+    //             "organizations": [
+    //                 "Massachusetts Institute of Technology"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Thea",
+    //             "last_name": "Norman",
+    //             "organizations": [
+    //                 "Sage Bionetworks"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Kahn",
+    //             "last_name": "Rhrissorrakrai",
+    //             "organizations": [
+    //                 "IBM Research"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Pablo",
+    //             "last_name": "Meyer",
+    //             "organizations": [
+    //                 "IBM Research"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Julio",
+    //             "last_name": "Saez-Rodriguez",
+    //             "organizations": [
+    //                 "Heidelberg University",
+    //                 "European Bioinformatics Institute",
+    //                 "RWTH Aachen University"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Gustavo",
+    //             "last_name": "Stolovitzky",
+    //             "organizations": [
+    //                 "Mount Sinai",
+    //                 "IBM Research"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Alejandro",
+    //             "last_name": "Villaverde",
+    //             "organizations": [
+    //                 "Consejo Superior de Investigaciones Cientificas"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Simon",
+    //             "last_name": "Wilkinson",
+    //             "organizations": [
+    //                 "Numerate"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Jessen",
+    //             "last_name": "Yu",
+    //             "organizations": [
+    //                 "Numerate"
+    //             ]
+    //         }
+    //     ],
+    //     "organizations": [
+    //         {
+    //             "name": "Numerate",
+    //             "url": "http://www.numerate.com/"
+    //         },
+    //         {
+    //             "name": "Urban Green Energy",
+    //             "url": "https://www.ugei.com/",
+    //             "short_name": "UGE"
+    //         },
+    //         {
+    //             "name": "Sage Bionetworks",
+    //             "url": "https://sagebionetworks.org/",
+    //             "short_name": "Sage"
+    //         },
+    //         {
+    //             "name": "Autodesk",
+    //             "url": "https://www.autodesk.com/"
+    //         },
+    //         {
+    //             "name": "European Bioinformatics Institute",
+    //             "url": "https://www.ebi.ac.uk/",
+    //             "short_name": "EMBL-EBI"
+    //         },
+    //         {
+    //             "name": "Stanford University",
+    //             "url": "https://www.stanford.edu/",
+    //             "short_name": "Stanford"
+    //         },
+    //         {
+    //             "name": "Massachusetts Institute of Technology",
+    //             "url": "https://www.mit.edu/",
+    //             "short_name": "MIT"
+    //         },
+    //         {
+    //             "name": "IBM Research",
+    //             "url": "https://www.research.ibm.com/"
+    //         },
+    //         {
+    //             "name": "Consejo Superior de Investigaciones Cientificas",
+    //             "url": "https://www.csic.es/",
+    //             "short_name": "CSIC"
+    //         }
+    //     ],
+    //     "challenge_results": {
+    //         "n_submissions": 23,
+    //         "n_participants": 104
+    //     }
+    // },
     // {
     //     "name": "HPN-DREAM Breast Cancer Network Inference",
     //     "start_date": "2013-07-16",
@@ -536,97 +536,97 @@ export const CHALLENGES: Challenge[] = [
     //         "n_participants": 242
     //     }
     // },
-    // {
-    //     "name": "ICGC-TCGA DREAM Genomic Mutation Calling",
-    //     "start_date": "2013-12-12",
-    //     "end_date": "2016-08-19",
-    //     "url": "https://www.synapse.org/#!Synapse:syn312572",
-    //     "status": "closed",
-    //     "tags": [
-    //         "cancer",
-    //         "mutation-calling"
-    //     ],
-    //     "organizers": [
-    //         {
-    //             "first_name": "Paul C.",
-    //             "last_name": "Boutros",
-    //             "organizations": [
-    //                 "Ontario Institute for Cancer Research"
-    //             ]
-    //         },
-    //         {
-    //             "first_name": "Lincoln D.",
-    //             "last_name": "Stein",
-    //             "organizations": [
-    //                 "Ontario Institute for Cancer Research"
-    //             ]
-    //         },
-    //         {
-    //             "first_name": "Josh",
-    //             "last_name": "Stuart",
-    //             "organizations": [
-    //                 "University of California Santa Cruz"
-    //             ]
-    //         },
-    //         {
-    //             "first_name": "Gustavo",
-    //             "last_name": "Stolovitzky",
-    //             "organizations": [
-    //                 "Mount Sinai",
-    //                 "IBM Research"
-    //             ]
-    //         },
-    //         {
-    //             "first_name": "Stephen",
-    //             "last_name": "Friend",
-    //             "organizations": [
-    //                 "Sage Bionetworks",
-    //                 "Apple Health"
-    //             ]
-    //         },
-    //         {
-    //             "first_name": "Adam",
-    //             "last_name": "Margolin",
-    //             "organizations": [
-    //                 "Sage Bionetworks",
-    //                 "Oregon Health & Science University",
-    //                 "Icahn School of Medicine at Mount Sinai"
-    //             ]
-    //         },
-    //         {
-    //             "first_name": "Thea",
-    //             "last_name": "Norman",
-    //             "organizations": [
-    //                 "Sage Bionetworks"
-    //             ]
-    //         }
-    //     ],
-    //     "organizations": [
-    //         {
-    //             "name": "Ontario Institute for Cancer Research",
-    //             "url": "https://oicr.on.ca/",
-    //             "short_name": "OICR"
-    //         },
-    //         {
-    //             "name": "University of California Santa Cruz",
-    //             "url": "https://www.ucsc.edu/",
-    //             "short_name": "UCSC"
-    //         },
-    //         {
-    //             "name": "IBM Research",
-    //             "url": "https://www.research.ibm.com/"
-    //         },
-    //         {
-    //             "name": "Sage Bionetworks",
-    //             "url": "https://sagebionetworks.org/",
-    //             "short_name": "Sage"
-    //         }
-    //     ],
-    //     "challenge_results": {
-    //         "n_submissions": 2823,
-    //         "n_participants": 110
-    //     }
-    // },
+    {
+        "name": "ICGC-TCGA DREAM Genomic Mutation Calling",
+        "start_date": "2013-12-12",
+        "end_date": "2016-08-19",
+        "url": "https://www.synapse.org/#!Synapse:syn312572",
+        "status": "closed",
+        "tags": [
+            "cancer",
+            "mutation-calling"
+        ],
+        "organizers": [
+            {
+                "first_name": "Paul C.",
+                "last_name": "Boutros",
+                "organizations": [
+                    "Ontario Institute for Cancer Research"
+                ]
+            },
+            {
+                "first_name": "Lincoln D.",
+                "last_name": "Stein",
+                "organizations": [
+                    "Ontario Institute for Cancer Research"
+                ]
+            },
+            {
+                "first_name": "Josh",
+                "last_name": "Stuart",
+                "organizations": [
+                    "University of California Santa Cruz"
+                ]
+            },
+            {
+                "first_name": "Gustavo",
+                "last_name": "Stolovitzky",
+                "organizations": [
+                    "Mount Sinai",
+                    "IBM Research"
+                ]
+            },
+            {
+                "first_name": "Stephen",
+                "last_name": "Friend",
+                "organizations": [
+                    "Sage Bionetworks",
+                    "Apple Health"
+                ]
+            },
+            {
+                "first_name": "Adam",
+                "last_name": "Margolin",
+                "organizations": [
+                    "Sage Bionetworks",
+                    "Oregon Health & Science University",
+                    "Icahn School of Medicine at Mount Sinai"
+                ]
+            },
+            {
+                "first_name": "Thea",
+                "last_name": "Norman",
+                "organizations": [
+                    "Sage Bionetworks"
+                ]
+            }
+        ],
+        "organizations": [
+            {
+                "name": "Ontario Institute for Cancer Research",
+                "url": "https://oicr.on.ca/",
+                "short_name": "OICR"
+            },
+            {
+                "name": "University of California Santa Cruz",
+                "url": "https://www.ucsc.edu/",
+                "short_name": "UCSC"
+            },
+            {
+                "name": "IBM Research",
+                "url": "https://www.research.ibm.com/"
+            },
+            {
+                "name": "Sage Bionetworks",
+                "url": "https://sagebionetworks.org/",
+                "short_name": "Sage"
+            }
+        ],
+        "challenge_results": {
+            "n_submissions": 2823,
+            "n_participants": 110
+        }
+    },
     // {
     //     "name": "Acute Myeloid Leukemia Outcome Prediction",
     //     "start_date": "2014-06-02",
