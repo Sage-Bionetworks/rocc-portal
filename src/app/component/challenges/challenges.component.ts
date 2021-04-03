@@ -1,26 +1,26 @@
 import { Component, OnInit } from '@angular/core';
+// import { Observable, of } from 'rxjs';
 
 import { Challenge } from '@sage-bionetworks/rocc-angular/model/challenge'
 import { CHALLENGES } from '../../mock-challenges';
 
 @Component({
-  selector: 'app-challenges',
-  templateUrl: './challenges.component.html',
-  styleUrls: ['./challenges.component.scss']
+    selector: 'app-challenges',
+    templateUrl: './challenges.component.html',
+    styleUrls: ['./challenges.component.scss']
 })
 export class ChallengesComponent implements OnInit {
+    title = 'Challenges';
+    challenges: Challenge[] = [];
+    selectedChallenge?: Challenge;
 
-  title = 'Challenges';
-  challenges = CHALLENGES;
+    constructor() {}
 
-  selectedChallenge?: Challenge;
-  onSelect(challenge: Challenge): void {
-    this.selectedChallenge = challenge;
-  }
+    ngOnInit(): void {
+        this.challenges = CHALLENGES;
+    }
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+    onSelect(challenge: Challenge): void {
+        this.selectedChallenge = challenge;
+    }
 }

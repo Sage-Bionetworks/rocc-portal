@@ -1,12 +1,10 @@
-// TODO: use database data
-
-import { Challenge } from './model/challenge'
+import { Challenge } from '@sage-bionetworks/rocc-angular/model/challenge'
 
 export const CHALLENGES: Challenge[] = [
     {
         "name": "NIEHS-NCATS-UNC Toxicogenetics",
-        "start_date": "2013-06-10",
-        "end_date": "2013-09-15",
+        "startDate": "2013-06-10",
+        "endDate": "2013-09-15",
         "url": "https://www.synapse.org/#!Synapse:syn1761567",
         "status": "closed",
         "tags": [
@@ -14,31 +12,31 @@ export const CHALLENGES: Challenge[] = [
             "toxicogenenetics"
         ],
         "organizers": [],
-        "organizations": [
-            {
-                "name": "University of North Carolina at Chapel Hill",
-                "url": "https://www.unc.edu/",
-                "short_name": "UNC"
-            },
-            {
-                "name": "National Institute of Environmental Health Sciences",
-                "url": "https://www.niehs.nih.gov/",
-                "short_name": "NIEHS"
-            },
-            {
-                "name": "National Center for Advancing Translational Sciences",
-                "url": "https://ncats.nih.gov/",
-                "short_name": "NCATS"
-            },
-            {
-                "name": "Sage Bionetworks",
-                "url": "https://sagebionetworks.org/",
-                "short_name": "Sage"
-            }
-        ],
-        "challenge_results": {
-            "n_submissions": 184,
-            "n_participants": 229
+        // "organizations": [
+        //     {
+        //         "name": "University of North Carolina at Chapel Hill",
+        //         "url": "https://www.unc.edu/",
+        //         "shortName": "UNC"
+        //     },
+        //     {
+        //         "name": "National Institute of Environmental Health Sciences",
+        //         "url": "https://www.niehs.nih.gov/",
+        //         "shortName": "NIEHS"
+        //     },
+        //     {
+        //         "name": "National Center for Advancing Translational Sciences",
+        //         "url": "https://ncats.nih.gov/",
+        //         "shortName": "NCATS"
+        //     },
+        //     {
+        //         "name": "Sage Bionetworks",
+        //         "url": "https://sagebionetworks.org/",
+        //         "shortName": "Sage"
+        //     }
+        // ],
+        "challengeResults": {
+            "nSubmissions": 184
+            // "nParticipants": 229
         }
     },
     // {
@@ -806,171 +804,171 @@ export const CHALLENGES: Challenge[] = [
     //         "n_participants": 285
     //     }
     // },
-    {
-        "name": "Broad-DREAM Gene Essentiality Prediction",
-        "start_date": "2014-06-02",
-        "end_date": "2014-09-29",
-        "url": "https://www.synapse.org/#!Synapse:syn2384331",
-        "status": "closed",
-        "tags": [
-            "cancer",
-            "targeted-cancer-therapy"
-        ],
-        "organizers": [
-            {
-                "first_name": "Mehmet",
-                "last_name": "Gonen",
-                "organizations": [
-                    "Oregon Health & Science University"
-                ]
-            },
-            {
-                "first_name": "Barbara",
-                "last_name": "Weir",
-                "organizations": [
-                    "Broad Institute"
-                ]
-            },
-            {
-                "first_name": "Aviad",
-                "last_name": "Tsherniak",
-                "organizations": [
-                    "Broad Institute"
-                ]
-            },
-            {
-                "first_name": "Daniel",
-                "last_name": "Marbach",
-                "organizations": [
-                    "University of Lausanne"
-                ]
-            },
-            {
-                "first_name": "Adam",
-                "last_name": "Margolin",
-                "organizations": [
-                    "Sage Bionetworks",
-                    "Oregon Health & Science University",
-                    "Icahn School of Medicine at Mount Sinai"
-                ]
-            },
-            {
-                "first_name": "Gustavo",
-                "last_name": "Stolovitzky",
-                "organizations": [
-                    "Mount Sinai",
-                    "IBM Research"
-                ]
-            },
-            {
-                "first_name": "Bruce",
-                "last_name": "Hoff",
-                "organizations": [
-                    "Sage Bionetworks"
-                ]
-            },
-            {
-                "first_name": "Thea",
-                "last_name": "Norman",
-                "organizations": [
-                    "Sage Bionetworks"
-                ]
-            },
-            {
-                "first_name": "Christine",
-                "last_name": "Suver",
-                "organizations": [
-                    "Sage Bionetworks"
-                ]
-            },
-            {
-                "first_name": "Shannon",
-                "last_name": "Carter",
-                "organizations": [
-                    "Sage Bionetworks"
-                ]
-            },
-            {
-                "first_name": "Sara",
-                "last_name": "Howell",
-                "organizations": [
-                    "Broad Institute"
-                ]
-            },
-            {
-                "first_name": "Paquita",
-                "last_name": "Vazquez",
-                "organizations": [
-                    "Broad Institute"
-                ]
-            },
-            {
-                "first_name": "Stephen",
-                "last_name": "Friend",
-                "organizations": [
-                    "Sage Bionetworks",
-                    "Apple Health"
-                ]
-            },
-            {
-                "first_name": "Bill",
-                "last_name": "Hahn",
-                "organizations": [
-                    "Broad Institute",
-                    "Dana-Farber Cancer Institute"
-                ]
-            },
-            {
-                "first_name": "Jesse",
-                "last_name": "Boehm",
-                "organizations": [
-                    "Broad Institute"
-                ]
-            },
-            {
-                "first_name": "Todd",
-                "last_name": "Golub",
-                "organizations": [
-                    "Broad Institute"
-                ]
-            }
-        ],
-        "organizations": [
-            {
-                "name": "University of Lausanne",
-                "url": "https://www.unil.ch/central/en/home.html",
-                "short_name": "UNIL"
-            },
-            {
-                "name": "IBM Research",
-                "url": "https://www.research.ibm.com/"
-            },
-            {
-                "name": "Oregon Health & Science University",
-                "url": "https://www.ohsu.edu/",
-                "short_name": "OHSU"
-            },
-            {
-                "name": "Broad Institute",
-                "url": "https://www.broadinstitute.org/",
-                "short_name": "Broad"
-            },
-            {
-                "name": "Dana-Farber Cancer Institute",
-                "url": "https://www.dana-farber.org/",
-                "short_name": "DFCI"
-            },
-            {
-                "name": "Sage Bionetworks",
-                "url": "https://sagebionetworks.org/",
-                "short_name": "Sage"
-            }
-        ],
-        "challenge_results": {
-            "n_submissions": 81,
-            "n_participants": 354
-        }
-    },
+    // {
+    //     "name": "Broad-DREAM Gene Essentiality Prediction",
+    //     "start_date": "2014-06-02",
+    //     "end_date": "2014-09-29",
+    //     "url": "https://www.synapse.org/#!Synapse:syn2384331",
+    //     "status": "closed",
+    //     "tags": [
+    //         "cancer",
+    //         "targeted-cancer-therapy"
+    //     ],
+    //     "organizers": [
+    //         {
+    //             "first_name": "Mehmet",
+    //             "last_name": "Gonen",
+    //             "organizations": [
+    //                 "Oregon Health & Science University"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Barbara",
+    //             "last_name": "Weir",
+    //             "organizations": [
+    //                 "Broad Institute"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Aviad",
+    //             "last_name": "Tsherniak",
+    //             "organizations": [
+    //                 "Broad Institute"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Daniel",
+    //             "last_name": "Marbach",
+    //             "organizations": [
+    //                 "University of Lausanne"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Adam",
+    //             "last_name": "Margolin",
+    //             "organizations": [
+    //                 "Sage Bionetworks",
+    //                 "Oregon Health & Science University",
+    //                 "Icahn School of Medicine at Mount Sinai"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Gustavo",
+    //             "last_name": "Stolovitzky",
+    //             "organizations": [
+    //                 "Mount Sinai",
+    //                 "IBM Research"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Bruce",
+    //             "last_name": "Hoff",
+    //             "organizations": [
+    //                 "Sage Bionetworks"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Thea",
+    //             "last_name": "Norman",
+    //             "organizations": [
+    //                 "Sage Bionetworks"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Christine",
+    //             "last_name": "Suver",
+    //             "organizations": [
+    //                 "Sage Bionetworks"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Shannon",
+    //             "last_name": "Carter",
+    //             "organizations": [
+    //                 "Sage Bionetworks"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Sara",
+    //             "last_name": "Howell",
+    //             "organizations": [
+    //                 "Broad Institute"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Paquita",
+    //             "last_name": "Vazquez",
+    //             "organizations": [
+    //                 "Broad Institute"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Stephen",
+    //             "last_name": "Friend",
+    //             "organizations": [
+    //                 "Sage Bionetworks",
+    //                 "Apple Health"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Bill",
+    //             "last_name": "Hahn",
+    //             "organizations": [
+    //                 "Broad Institute",
+    //                 "Dana-Farber Cancer Institute"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Jesse",
+    //             "last_name": "Boehm",
+    //             "organizations": [
+    //                 "Broad Institute"
+    //             ]
+    //         },
+    //         {
+    //             "first_name": "Todd",
+    //             "last_name": "Golub",
+    //             "organizations": [
+    //                 "Broad Institute"
+    //             ]
+    //         }
+    //     ],
+    //     "organizations": [
+    //         {
+    //             "name": "University of Lausanne",
+    //             "url": "https://www.unil.ch/central/en/home.html",
+    //             "short_name": "UNIL"
+    //         },
+    //         {
+    //             "name": "IBM Research",
+    //             "url": "https://www.research.ibm.com/"
+    //         },
+    //         {
+    //             "name": "Oregon Health & Science University",
+    //             "url": "https://www.ohsu.edu/",
+    //             "short_name": "OHSU"
+    //         },
+    //         {
+    //             "name": "Broad Institute",
+    //             "url": "https://www.broadinstitute.org/",
+    //             "short_name": "Broad"
+    //         },
+    //         {
+    //             "name": "Dana-Farber Cancer Institute",
+    //             "url": "https://www.dana-farber.org/",
+    //             "short_name": "DFCI"
+    //         },
+    //         {
+    //             "name": "Sage Bionetworks",
+    //             "url": "https://sagebionetworks.org/",
+    //             "short_name": "Sage"
+    //         }
+    //     ],
+    //     "challenge_results": {
+    //         "n_submissions": 81,
+    //         "n_participants": 354
+    //     }
+    // },
     // {
     //     "name": "Alzheimer's Disease Big Data",
     //     "start_date": "2014-06-02",

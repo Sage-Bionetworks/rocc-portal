@@ -8,7 +8,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChallengesComponent } from './component/challenges/challenges.component';
 import { OrganizationsComponent } from './component/organizations/organizations.component';
-import { ExploreComponent } from './component/explore/explore.component';
 import { HomeComponent } from './component/home/home.component';
 import { AboutComponent } from './component/about/about.component';
 import { ChallengeDetailComponent } from './component/challenge-detail/challenge-detail.component';
@@ -25,7 +24,6 @@ export function apiConfigFactory (): Configuration {
     AppComponent,
     ChallengesComponent,
     OrganizationsComponent,
-    ExploreComponent,
     HomeComponent,
     AboutComponent,
     ChallengeDetailComponent

@@ -1,6 +1,4 @@
-// TODO: use database data
-
-import { Organization } from './model/organization'
+import { Organization } from '@sage-bionetworks/rocc-angular/model/organization'
 
 export const ORGANIZATIONS: Organization[] = [
     {
@@ -26,27 +24,27 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Brigham And Women's Hospital",
         "url": "https://www.brighamandwomens.org/",
-        "short_name": "BWH"
+        "shortName": "BWH"
     },
     {
         "name": "Brigham Young University",
         "url": "https://www.byu.edu/",
-        "short_name": "BYU"
+        "shortName": "BYU"
     },
     {
         "name": "Broad Institute",
         "url": "https://www.broadinstitute.org/",
-        "short_name": "Broad"
+        "shortName": "Broad"
     },
     {
         "name": "California Institute of Technology",
         "url": "https://www.caltech.edu/",
-        "short_name": "Caltech"
+        "shortName": "Caltech"
     },
     {
         "name": "Cancer Target Discovery And Development",
         "url": "https://ocg.cancer.gov/programs/ctd2",
-        "short_name": "CTD2"
+        "shortName": "CTD2"
     },
     {
         "name": "Celgene",
@@ -59,12 +57,12 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Columbia University",
         "url": "https://www.columbia.edu/",
-        "short_name": "Columbia"
+        "shortName": "Columbia"
     },
     {
         "name": "Consejo Superior de Investigaciones Cientificas",
         "url": "https://www.csic.es/",
-        "short_name": "CSIC"
+        "shortName": "CSIC"
     },
     {
         "name": "Corrona",
@@ -73,12 +71,12 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Dana-Farber Cancer Institute",
         "url": "https://www.dana-farber.org/",
-        "short_name": "DFCI"
+        "shortName": "DFCI"
     },
     {
         "name": "Defense Advanced Research Projects Agency",
         "url": "https://www.darpa.mil/",
-        "short_name": "DARPA"
+        "shortName": "DARPA"
     },
     {
         "name": "Dockstore",
@@ -87,7 +85,7 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Duke University",
         "url": "https://duke.edu/",
-        "short_name": "Duke"
+        "shortName": "Duke"
     },
     {
         "name": "Durham VA Health Care System",
@@ -96,7 +94,7 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Early Signal Foundation",
         "url": "http://www.earlysignal.org",
-        "short_name": "Early Signal"
+        "shortName": "Early Signal"
     },
     {
         "name": "Eck Institute for Global Health",
@@ -105,32 +103,32 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "ETH Zurich",
         "url": "https://ethz.ch/en.html",
-        "short_name": "ETH"
+        "shortName": "ETH"
     },
     {
         "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
         "url": "https://www.nichd.nih.gov/",
-        "short_name": "NICHD/NIH"
+        "shortName": "NICHD/NIH"
     },
     {
         "name": "European Bioinformatics Institute",
         "url": "https://www.ebi.ac.uk/",
-        "short_name": "EMBL-EBI"
+        "shortName": "EMBL-EBI"
     },
     {
         "name": "Feinstein Institutes for Medical Research",
         "url": "https://feinstein.northwell.edu/",
-        "short_name": "Feinstein Institute"
+        "shortName": "Feinstein Institute"
     },
     {
         "name": "George Washington University",
         "url": "https://www.gwu.edu/",
-        "short_name": "GWU"
+        "shortName": "GWU"
     },
     {
         "name": "Global Alliance for Genomics and Health",
         "url": "https://www.ga4gh.org/",
-        "short_name": "GA4GH"
+        "shortName": "GA4GH"
     },
     {
         "name": "H3ABioNet",
@@ -139,7 +137,7 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Harvard University",
         "url": "https://www.harvard.edu/",
-        "short_name": "Harvard"
+        "shortName": "Harvard"
     },
     {
         "name": "Heidelberg University",
@@ -160,7 +158,7 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Icahn School of Medicine at Mount Sinai",
         "url": "https://icahn.mssm.edu/",
-        "short_name": "MSSM"
+        "shortName": "MSSM"
     },
     {
         "name": "Institut Curie",
@@ -169,17 +167,17 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Institute for Molecular Medicine Finland",
         "url": "https://www.helsinki.fi/en/hilife-fimm",
-        "short_name": "FIMM"
+        "shortName": "FIMM"
     },
     {
         "name": "Kaiser Permanente Washington Health Research Institute",
         "url": "https://www.kpwashingtonresearch.org/",
-        "short_name": "KPWHRI"
+        "shortName": "KPWHRI"
     },
     {
         "name": "King's College London",
         "url": "https://www.kcl.ac.uk/",
-        "short_name": "KCL"
+        "shortName": "KCL"
     },
     {
         "name": "Ligue Nationale Contre le Cancer",
@@ -188,27 +186,27 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "London's Global University",
         "url": "https://www.ucl.ac.uk/",
-        "short_name": "UCL"
+        "shortName": "UCL"
     },
     {
         "name": "Ludwig Maximilian University of Munich",
         "url": "https://www.en.uni-muenchen.de/index.html",
-        "short_name": "LMU Munich"
+        "shortName": "LMU Munich"
     },
     {
         "name": "Massachusetts General Hospital",
         "url": "https://www.massgeneral.org/",
-        "short_name": "Mass General"
+        "shortName": "Mass General"
     },
     {
         "name": "Massachusetts Institute of Technology",
         "url": "https://www.mit.edu/",
-        "short_name": "MIT"
+        "shortName": "MIT"
     },
     {
         "name": "Max Delbruck Center for Molecular Medicine",
         "url": "https://www.mdc-berlin.de/",
-        "short_name": "MDC"
+        "shortName": "MDC"
     },
     {
         "name": "MD Anderson Cancer Center",
@@ -217,7 +215,7 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Memorial Sloan Kettering Cancer Center",
         "url": "https://www.mskcc.org/",
-        "short_name": "MSK"
+        "shortName": "MSK"
     },
     {
         "name": "Merck",
@@ -234,42 +232,42 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Mount Sinai",
         "url": "https://www.mountsinai.org/",
-        "short_name": "Mt. Sinai"
+        "shortName": "Mt. Sinai"
     },
     {
         "name": "Multiple Myeloma Research Foundation",
         "url": "https://themmrf.org/",
-        "short_name": "MMRF"
+        "shortName": "MMRF"
     },
     {
         "name": "Nathan S. Kline Institute for Psychiatric Research",
         "url": "https://www.nki.rfmh.org/",
-        "short_name": "NKI"
+        "shortName": "NKI"
     },
     {
         "name": "National Cancer Institute",
         "url": "https://www.cancer.gov/",
-        "short_name": "NCI"
+        "shortName": "NCI"
     },
     {
         "name": "National Center for Advancing Translational Sciences",
         "url": "https://ncats.nih.gov/",
-        "short_name": "NCATS"
+        "shortName": "NCATS"
     },
     {
         "name": "National Institute of Environmental Health Sciences",
         "url": "https://www.niehs.nih.gov/",
-        "short_name": "NIEHS"
+        "shortName": "NIEHS"
     },
     {
         "name": "National Institutes of Health",
         "url": "https://www.nih.gov/",
-        "short_name": "NIH"
+        "shortName": "NIH"
     },
     {
         "name": "New York University",
         "url": "https://www.nyu.edu/",
-        "short_name": "NYU"
+        "shortName": "NYU"
     },
     {
         "name": "Numerate",
@@ -278,17 +276,17 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Ontario Institute for Cancer Research",
         "url": "https://oicr.on.ca/",
-        "short_name": "OICR"
+        "shortName": "OICR"
     },
     {
         "name": "Oregon Health & Science University",
         "url": "https://www.ohsu.edu/",
-        "short_name": "OHSU"
+        "shortName": "OHSU"
     },
     {
         "name": "Pacific Northwest National Laboratory",
         "url": "https://www.pnnl.gov/",
-        "short_name": "PNNL"
+        "shortName": "PNNL"
     },
     {
         "name": "Prize4Life",
@@ -301,17 +299,17 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Prostate Cancer Foundation",
         "url": "https://www.pcf.org/",
-        "short_name": "PCF"
+        "shortName": "PCF"
     },
     {
         "name": "Providence Health & Services",
         "url": "https://www.providence.org/en",
-        "short_name": "Providence"
+        "shortName": "Providence"
     },
     {
         "name": "Queen's University",
         "url": "https://www.queensu.ca/",
-        "short_name": "Queen's"
+        "shortName": "Queen's"
     },
     {
         "name": "Radish Medical Solutions",
@@ -320,22 +318,22 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Rice University",
         "url": "https://www.rice.edu/",
-        "short_name": "Rice"
+        "shortName": "Rice"
     },
     {
         "name": "RWTH Aachen University",
         "url": "https://www.rwth-aachen.de/go/id/a/?lidx=1",
-        "short_name": "RWTH Aachen"
+        "shortName": "RWTH Aachen"
     },
     {
         "name": "Sage Bionetworks",
         "url": "https://sagebionetworks.org/",
-        "short_name": "Sage"
+        "shortName": "Sage"
     },
     {
         "name": "Seattle Cancer Care Alliance",
         "url": "https://www.seattlecca.org/",
-        "short_name": "SCCA"
+        "shortName": "SCCA"
     },
     {
         "name": "Semmelweis University",
@@ -344,12 +342,12 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Hospital for Sick Children",
         "url": "https://www.sickkids.ca/Research/",
-        "short_name": "SickKids"
+        "shortName": "SickKids"
     },
     {
         "name": "Stanford University",
         "url": "https://www.stanford.edu/",
-        "short_name": "Stanford"
+        "shortName": "Stanford"
     },
     {
         "name": "Francis Crick Institute",
@@ -362,62 +360,62 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Trinity College Institute of Neuroscience",
         "url": "https://www.tcd.ie/Neuroscience/",
-        "short_name": "TCD - Neuroscience"
+        "shortName": "TCD - Neuroscience"
     },
     {
         "name": "Tulane University",
         "url": "https://tulane.edu/",
-        "short_name": "Tulane"
+        "shortName": "Tulane"
     },
     {
         "name": "U.S. Food & Drug Administration",
         "url": "https://www.fda.gov/home",
-        "short_name": "FDA"
+        "shortName": "FDA"
     },
     {
         "name": "Lausanne University Hospital",
         "url": "https://www.lausanneuniversityhospital.com/home",
-        "short_name": "CHUV"
+        "shortName": "CHUV"
     },
     {
         "name": "University of Alabama at Birmingham",
         "url": "https://www.uab.edu/home/",
-        "short_name": "UAB"
+        "shortName": "UAB"
     },
     {
         "name": "University of California San Diego",
         "url": "https://ucsd.edu/",
-        "short_name": "UCSD"
+        "shortName": "UCSD"
     },
     {
         "name": "University of California San Francisco",
         "url": "https://www.ucsf.edu/",
-        "short_name": "UCSF"
+        "shortName": "UCSF"
     },
     {
         "name": "University of California Santa Cruz",
         "url": "https://www.ucsc.edu/",
-        "short_name": "UCSC"
+        "shortName": "UCSC"
     },
     {
         "name": "University of Colorado Anschutz Medical Campus",
         "url": "https://www.cuanschutz.edu/",
-        "short_name": "CU Anschutz"
+        "shortName": "CU Anschutz"
     },
     {
         "name": "University of Kentucky",
         "url": "http://www.uky.edu/",
-        "short_name": "UKY"
+        "shortName": "UKY"
     },
     {
         "name": "University of Lausanne",
         "url": "https://www.unil.ch/central/en/home.html",
-        "short_name": "UNIL"
+        "shortName": "UNIL"
     },
     {
         "name": "University of Lisbon",
         "url": "https://www.ulisboa.pt/en",
-        "short_name": "U Lisbon"
+        "shortName": "U Lisbon"
     },
     {
         "name": "University of Luxembourg",
@@ -426,17 +424,17 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "University of Michigan",
         "url": "https://umich.edu/",
-        "short_name": "Umich"
+        "shortName": "Umich"
     },
     {
         "name": "University of North Carolina at Chapel Hill",
         "url": "https://www.unc.edu/",
-        "short_name": "UNC"
+        "shortName": "UNC"
     },
     {
         "name": "University of Notre Dame",
         "url": "https://www.nd.edu/",
-        "short_name": "Notre Dame"
+        "shortName": "Notre Dame"
     },
     {
         "name": "University of Rochester Medical Center",
@@ -445,32 +443,32 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "University of Texas Southwestern Medical Center",
         "url": "https://www.utsouthwestern.edu/",
-        "short_name": "UTSW"
+        "shortName": "UTSW"
     },
     {
         "name": "University of Toronto",
         "url": "https://www.utoronto.ca/",
-        "short_name": "Utoronto"
+        "shortName": "Utoronto"
     },
     {
         "name": "University of Washington",
         "url": "https://www.washington.edu/",
-        "short_name": "U-Dub"
+        "shortName": "U-Dub"
     },
     {
         "name": "University of Zurich",
         "url": "https://www.uzh.ch/en.html",
-        "short_name": "UZH"
+        "shortName": "UZH"
     },
     {
         "name": "Urban Green Energy",
         "url": "https://www.ugei.com/",
-        "short_name": "UGE"
+        "shortName": "UGE"
     },
     {
         "name": "University of Virginia",
         "url": "https://www.virginia.edu/",
-        "short_name": "UVA"
+        "shortName": "UVA"
     },
     {
         "name": "Verily",
@@ -491,6 +489,6 @@ export const ORGANIZATIONS: Organization[] = [
     {
         "name": "Washington University in St. Louis",
         "url": "https://wustl.edu/",
-        "short_name": "WUStL"
+        "shortName": "WUStL"
     }
 ]
