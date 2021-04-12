@@ -1,4 +1,4 @@
-import { Organization } from '@sage-bionetworks/rocc-angular/model/organization'
+import { Organization } from '@sage-bionetworks/rocc-client-angular'
 
 export const ORGANIZATIONS: Organization[] = [
     {

@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 // import { Observable, of } from 'rxjs';
 import { Subscription } from 'rxjs';
 
-import { Challenge } from '@sage-bionetworks/rocc-angular';
+import { Challenge } from '@sage-bionetworks/rocc-client-angular';
+import { ChallengeService } from '@sage-bionetworks/rocc-client-angular';
 import { CHALLENGES } from '../../mock-challenges';
-import { ChallengeService } from '@sage-bionetworks/rocc-angular';
 
 @Component({
     selector: 'rocc-challenges',

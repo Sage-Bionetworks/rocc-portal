@@ -1,4 +1,4 @@
-import { Challenge } from '@sage-bionetworks/rocc-angular/model/challenge'
+import { Challenge } from '@sage-bionetworks/rocc-client-angular'
 
 export const CHALLENGES: Challenge[] = [
     {

@@ -2,8 +2,8 @@ import { InjectionToken, NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { ApiModule, Configuration, ConfigurationParameters } from '@sage-bionetworks/rocc-angular';
-import { BASE_PATH } from '@sage-bionetworks/rocc-angular';
+import { ApiModule, Configuration, ConfigurationParameters } from '@sage-bionetworks/rocc-client-angular';
+import { BASE_PATH } from '@sage-bionetworks/rocc-client-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';

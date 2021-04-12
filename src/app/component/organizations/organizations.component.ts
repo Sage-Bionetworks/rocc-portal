@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Organization } from '@sage-bionetworks/rocc-angular/model/organization'
+import { Organization } from '@sage-bionetworks/rocc-client-angular'
 import { ORGANIZATIONS } from '../../mock-organizations';
 
 @Component({
