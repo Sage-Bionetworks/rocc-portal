@@ -1,6 +1,23 @@
-# Rocc
+# ROCC Web Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+
+## Usage
+
+1. git clone --recursive https://github.com/Sage-Bionetworks/rocc-app.git
+2. Build the ROCC client library for Angular
+
+       cd rocc-client-angular/rocc-client
+       npm ci
+       npm run build
+
+3. Install the dependencies
+
+       npm ci
+
+4. Start the web client
+
+       npm run start
 
 ## Development server
 
