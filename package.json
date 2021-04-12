@@ -19,7 +19,7 @@
     "@angular/platform-browser": "^11.2.7",
     "@angular/platform-browser-dynamic": "^11.2.7",
     "@angular/router": "^11.2.7",
-    "@sage-bionetworks/rocc-client-angular": "file:rocc-client-angular/rocc-client",
+    "@sage-bionetworks/rocc-client-angular": "file:rocc-client-angular/rocc-client/dist",
     "rxjs": "^6.6.7",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
