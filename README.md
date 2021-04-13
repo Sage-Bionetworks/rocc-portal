@@ -4,6 +4,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Usage
 
+### Running with Docker
+
+TBA
+
+### Running with Angular CLI
+
+This section describes how to start the ROCC API service and the ROCC Angular
+app in development environment.
+
 1. git clone --recursive https://github.com/Sage-Bionetworks/rocc-app.git
 2. Build the ROCC client library for Angular
 
@@ -15,7 +24,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
        npm ci
 
-4. Start the web client
+4. Start the [ROCC API service] on http://localhost:8080/api/v1
+
+5. Start the web client (uses Angular CLI)
 
        npm run start
 
@@ -42,3 +53,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## License
+
+[Apache License 2.0]
+
+<!-- Links -->
+
+[ROCC API service]: https://github.com/Sage-Bionetworks/rocc
+[Apache License 2.0]: https://github.com/Sage-Bionetworks/rocc-app/blob/develop/LICENSE

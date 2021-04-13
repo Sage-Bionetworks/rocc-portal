@@ -4,7 +4,6 @@ import { Subscription } from 'rxjs';
 
 import { Challenge } from '@sage-bionetworks/rocc-client-angular';
 import { ChallengeService } from '@sage-bionetworks/rocc-client-angular';
-import { CHALLENGES } from '../../mock-challenges';
 
 @Component({
     selector: 'rocc-challenges',
@@ -20,8 +19,14 @@ export class ChallengesComponent implements OnInit {
     constructor(private challengeService: ChallengeService) {}
 
     ngOnInit(): void {
-        // this.challenges = CHALLENGES;
-        this.challengeSub = this.challengeService.listChallenges().subscribe(res => console.log('res', res));
+        this.challengeSub = this.challengeService.listChallenges()
+            .subscribe(res => {
+                if (res.challenges) {
+                    this.challenges = res.challenges;
+                }
+            },
+            err => console.error(err)
+        );
     }
 
     ngOnDestroy() {
