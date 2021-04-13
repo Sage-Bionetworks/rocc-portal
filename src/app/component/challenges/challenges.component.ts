@@ -21,7 +21,11 @@ export class ChallengesComponent implements OnInit {
 
     ngOnInit(): void {
         // this.challenges = CHALLENGES;
-        this.challengeSub = this.challengeService.listChallenges().subscribe(res => console.log('res', res));
+        this.challengeSub = this.challengeService.listChallenges()
+            .subscribe(res => {
+                console.log("plop");
+                console.log('res', res);
+            });
     }
 
     ngOnDestroy() {
