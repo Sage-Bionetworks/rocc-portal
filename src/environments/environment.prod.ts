@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    apiBasePath: 'http://127.0.0.1:8080'
+    apiBasePath: 'http://localhost:4200/api'  // see proxy.conf.json
 };
