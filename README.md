@@ -11,22 +11,30 @@ TBA
 ### Running with Angular CLI
 
 This section describes how to start the ROCC API service and the ROCC Angular
-app in development environment.
+app in development environment. After each step, you need to come back to the
+project root folder.
 
 1. git clone --recursive https://github.com/Sage-Bionetworks/rocc-app.git
-2. Build the ROCC client library for Angular
+2. Build the Sage Bionetworks library for Angular
+
+       cd sage-angular/
+       npm ci
+       cd projects/sage-angular
+       npm build sage-angular
+
+3. Build the ROCC client library for Angular
 
        cd rocc-client-angular/rocc-client
        npm ci
        npm run build
 
-3. Install the dependencies
+4. Install the dependencies
 
        npm ci
 
-4. Start the [ROCC API service] on http://localhost:8080/api/v1
+5. Start the [ROCC API service] on http://localhost:8080/api/v1
 
-5. Start the web client (uses Angular CLI)
+6. Start the web client (uses Angular CLI)
 
        npm run start
 
