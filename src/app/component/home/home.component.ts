@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+// import { SageAngularComponent } from '@sage-bionetworks/sage-angular';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

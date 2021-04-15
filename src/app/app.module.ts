@@ -2,6 +2,7 @@ import { InjectionToken, NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { SageAngularModule } from '@sage-bionetworks/sage-angular';
 import { ApiModule, Configuration, ConfigurationParameters } from '@sage-bionetworks/rocc-client-angular';
 import { BASE_PATH } from '@sage-bionetworks/rocc-client-angular';
 
@@ -33,9 +34,10 @@ export function apiConfigFactory (): Configuration {
   ],
   imports: [
     BrowserModule,
-    ApiModule.forRoot(apiConfigFactory),
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SageAngularModule,
+    ApiModule.forRoot(apiConfigFactory)
   ],
   providers: [
     { provide: BASE_PATH, useValue: environment.apiBasePath }
