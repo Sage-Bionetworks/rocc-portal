@@ -1,3 +1,7 @@
 [submodule "rocc-client-angular"]
 	path = rocc-client-angular
 	url = https://github.com/Sage-Bionetworks/rocc-client-angular.git
+[submodule "sage-angular"]
+	path = sage-angular
+	url = https://github.com/Sage-Bionetworks/sage-angular.git
+	branch = main
