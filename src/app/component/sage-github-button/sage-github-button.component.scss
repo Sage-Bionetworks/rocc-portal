@@ -1,0 +1,32 @@
+.docs-github-logo {
+    height: 26px;
+    margin: 0 4px 3px 0;
+    vertical-align: middle;
+}
+
+.mat-button {
+    font-family: inherit;
+    color: inherit;
+    padding: 0 16px;
+    margin: 0;
+    background: transparent;
+
+    &:hover {
+        @extend .mat-button;
+    }
+}
+
+// repsonsive
+.docs-navbar-show-small {
+    display: none;
+  }
+
+@media (max-width: 767px) {
+.docs-navbar-hide-small {   
+    display: none;
+    }
+
+    .docs-navbar-show-small {
+    display: block;
+    }
+}  

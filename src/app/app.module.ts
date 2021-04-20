@@ -17,6 +17,7 @@ import { ChallengeDetailComponent } from './component/challenge-detail/challenge
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
+import { SageGithubButtonComponent } from './component/sage-github-button/sage-github-button.component';
 
 export function apiConfigFactory(): Configuration {
   const params: ConfigurationParameters = {
@@ -32,7 +33,8 @@ export function apiConfigFactory(): Configuration {
     OrganizationsComponent,
     HomeComponent,
     AboutComponent,
-    ChallengeDetailComponent
+    ChallengeDetailComponent,
+    SageGithubButtonComponent
   ],
   imports: [
     BrowserModule,
