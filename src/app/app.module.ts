@@ -15,8 +15,10 @@ import { AboutComponent } from './component/about/about.component';
 import { ChallengeDetailComponent } from './component/challenge-detail/challenge-detail.component';
 
 import { environment } from '../environments/environment';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
 
-export function apiConfigFactory (): Configuration {
+export function apiConfigFactory(): Configuration {
   const params: ConfigurationParameters = {
     // set configuration parameters here.
   }
@@ -34,10 +36,12 @@ export function apiConfigFactory (): Configuration {
   ],
   imports: [
     BrowserModule,
+    MatButtonModule,
     HttpClientModule,
     AppRoutingModule,
     SageAngularModule,
-    ApiModule.forRoot(apiConfigFactory)
+    ApiModule.forRoot(apiConfigFactory),
+    BrowserAnimationsModule
   ],
   providers: [
     { provide: BASE_PATH, useValue: environment.apiBasePath }
