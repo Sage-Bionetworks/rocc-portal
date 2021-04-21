@@ -47,7 +47,7 @@
     font-weight: 600;
   }
 
-  .toolbar a {
+  .toolbar > a {
     background-color: #1976d2;
     margin: 0 5px;
     padding: 21px 15px;
@@ -55,13 +55,13 @@
     font-weight: 600;
   }
 
-  .toolbar a:hover {
-    background-color: white;
-    margin: 0 5px;
-    padding: 21px 15px;
-    color: #1976d2;
-    font-weight: 600;
-  }
+  // .toolbar a:hover {
+  //   background-color: white;
+  //   margin: 0 5px;
+  //   padding: 21px 15px;
+  //   color: #1976d2;
+  //   font-weight: 600;
+  // }
 
   .toolbar img {
     margin: 0 16px;

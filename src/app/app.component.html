@@ -8,13 +8,12 @@
   <!-- <a routerLink="/explore">Explore</a> -->
   <a routerLink="/challenges">Challenges</a>
   <a routerLink="/organizations">Organizations</a>
-  <sage-github-button></sage-github-button>
+  <sage-github-button routerLink="/challenges"></sage-github-button>
 </nav>
 
 <!-- Main content -->
 <div class="content" role="main">
   <router-outlet></router-outlet>
-  <sage-angular></sage-angular>
   <button mat-raised-button color="primary">Test Material Button</button>
 </div>
 
