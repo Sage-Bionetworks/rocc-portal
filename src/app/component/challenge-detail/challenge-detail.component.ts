@@ -1,9 +1,9 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { Challenge } from '@sage-bionetworks/rocc-client-angular'
+import { Challenge } from '@sage-bionetworks/rocc-client-angular';
 
 @Component({
-    selector: 'rocc-challenge-detail',
+    selector: 'app-challenge-detail',
     templateUrl: './challenge-detail.component.html',
     styleUrls: ['./challenge-detail.component.scss']
 })

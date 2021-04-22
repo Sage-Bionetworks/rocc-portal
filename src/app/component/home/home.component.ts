@@ -10,7 +10,6 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   title = 'Registry of Open Community Challenges';
-  short_title = 'ROCC';
 
   constructor() { }
 
