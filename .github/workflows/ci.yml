@@ -31,7 +31,7 @@ jobs:
         node-version: ${{ env.node_version }}
     - name: Build rocc-client-angular
       run: |
-        cd rocc-client-angular
+        cd rocc-client-angular/rocc-client
         npm ci
         npm run build
     - name: Build sage-angular
