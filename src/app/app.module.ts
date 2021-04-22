@@ -21,7 +21,7 @@ import { MatButtonModule } from '@angular/material/button';
 export function apiConfigFactory(): Configuration {
   const params: ConfigurationParameters = {
     // set configuration parameters here.
-  }
+  };
   return new Configuration(params);
 }
 
