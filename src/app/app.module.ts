@@ -2,7 +2,7 @@ import { InjectionToken, NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { SageAngularModule } from '@sage-bionetworks/sage-angular';
+import { GithubButtonModule } from '@sage-bionetworks/sage-angular';
 import { ApiModule, Configuration, ConfigurationParameters } from '@sage-bionetworks/rocc-client-angular';
 import { BASE_PATH } from '@sage-bionetworks/rocc-client-angular';
 
@@ -17,7 +17,6 @@ import { ChallengeDetailComponent } from './component/challenge-detail/challenge
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
-import { SageGithubButtonComponent } from './component/sage-github-button/sage-github-button.component';
 
 export function apiConfigFactory(): Configuration {
   const params: ConfigurationParameters = {
@@ -34,14 +33,13 @@ export function apiConfigFactory(): Configuration {
     HomeComponent,
     AboutComponent,
     ChallengeDetailComponent,
-    SageGithubButtonComponent
   ],
   imports: [
     BrowserModule,
     MatButtonModule,
     HttpClientModule,
     AppRoutingModule,
-    SageAngularModule,
+    GithubButtonModule,
     ApiModule.forRoot(apiConfigFactory),
     BrowserAnimationsModule
   ],
