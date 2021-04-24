@@ -7,8 +7,8 @@
     "build": "ng build",
     "build:rocc-client-angular": "cd rocc-client-angular && git checkout main && git pull && cd rocc-client && npm ci && npm run build",
     "build:sage-angular": "cd sage-angular && git checkout main && git pull && npm ci && npm run build",
-    "update:dependencies": "npm ci && npm run build:rocc-client-angular && npm run build:sage-angular",
-    "update:deps": "npm run update:dependencies",
+    "install:dependencies": "npm ci && npm run build:rocc-client-angular && npm run build:sage-angular",
+    "install:deps": "npm run install:dependencies",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
