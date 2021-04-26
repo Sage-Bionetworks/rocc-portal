@@ -2,7 +2,7 @@ import { InjectionToken, NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { GithubButtonModule } from '@sage-bionetworks/sage-angular';
+import { NavbarModule } from '@sage-bionetworks/sage-angular';
 import { ApiModule, Configuration, ConfigurationParameters } from '@sage-bionetworks/rocc-client-angular';
 import { BASE_PATH } from '@sage-bionetworks/rocc-client-angular';
 
@@ -39,7 +39,8 @@ export function apiConfigFactory(): Configuration {
     MatButtonModule,
     HttpClientModule,
     AppRoutingModule,
-    GithubButtonModule,
+    NavbarModule,
+    // GithubButtonModule,
     ApiModule.forRoot(apiConfigFactory),
     BrowserAnimationsModule
   ],
