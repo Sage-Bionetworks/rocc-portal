@@ -1,7 +1,7 @@
 import {Routes} from '@angular/router';
 // import {CanActivateComponentSidenav} from './pages/component-sidenav/component-sidenav-can-load-guard';
 
-export const ROUTES: Routes = [
+export const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
@@ -14,6 +14,14 @@ export const ROUTES: Routes = [
   {
     path: 'organizations',
     loadChildren: () => import('./pages/organizations').then(m => m.OrganizationsModule)
+  },
+  {
+    path: 'signin',
+    loadChildren: () => import('./pages/signin').then(m => m.SigninModule)
+  },
+  {
+    path: 'signup',
+    loadChildren: () => import('./pages/signup').then(m => m.SignupModule)
   },
 //   {path: 'categories', redirectTo: '/components/categories'},
 //   {path: 'cdk', pathMatch: 'full', redirectTo: '/cdk/categories'},
