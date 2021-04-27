@@ -1,15 +1,14 @@
-import { InjectionToken, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { RouterModule } from '@angular/router';
 
 import { NavbarModule, FooterModule } from '@sage-bionetworks/sage-angular';
 import { ApiModule, Configuration, ConfigurationParameters } from '@sage-bionetworks/rocc-client-angular';
 import { BASE_PATH } from '@sage-bionetworks/rocc-client-angular';
 
 import { AppComponent } from './app.component';
-import { routes } from './app-routes';
+import { AppRoutingModule } from './app-routing.module';
 import { environment } from '../environments/environment';
 
 export function apiConfigFactory(): Configuration {
@@ -27,7 +26,7 @@ export function apiConfigFactory(): Configuration {
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    RouterModule.forRoot(routes),
+    AppRoutingModule,
     NavbarModule,
     FooterModule,
     ApiModule.forRoot(apiConfigFactory)
