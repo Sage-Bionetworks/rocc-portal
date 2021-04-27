@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 // TODO: fix import from @sage-bionetworks/sage-angular
 import { Section } from '@sage-bionetworks/sage-angular/src/lib/navbar/section';
@@ -10,7 +10,7 @@ import { environment } from '../environments/environment';
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'ROCC';
   version = environment.appVersion;
   sections: { [key: string]: Section } = SECTIONS;
