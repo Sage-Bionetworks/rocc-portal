@@ -11,10 +11,16 @@ export class DatabaseSeedComponent implements OnInit {
   constructor(private tagService: TagService) {}
 
   ngOnInit(): void {
-    this.tagService.deleteAllTags()
+    // this.tagService.deleteAllTags()
+    //   .subscribe(res => {
+    //     console.log(res);
+    //   },
+    //   err => console.error(err));
+    this.tagService.createTag("plop-tag", {})
       .subscribe(res => {
         console.log(res);
       },
-      err => console.error(err));
+      err => console.error(err)
+    );
   }
 }
