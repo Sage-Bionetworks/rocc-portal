@@ -102,7 +102,7 @@ jobs:
         # cp -R storybook-static/* ${STORYBOOK_TARGET_DIR}
         APP_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version }}
         mkdir -p ${APP_TARGET_DIR}
-        cp -R dist/* ${APP_TARGET_DIR}
+        cp -R dist/rocc-app/* ${APP_TARGET_DIR}
         # Update gh-pages: latest, major, and minor versions
         if [ ! -z "${{ steps.prep.outputs.version_major }}" ]; then
           # Update major version (e.g. "1.2.3" => "1")
@@ -111,21 +111,21 @@ jobs:
           # cp -R storybook-static/* ${STORYBOOK_TARGET_DIR}
           APP_TARGET_DIR=gh-pages/latest
           mkdir -p ${APP_TARGET_DIR}
-          cp -R dist/* ${APP_TARGET_DIR}
+          cp -R dist/rocc-app/* ${APP_TARGET_DIR}
           # Update major version (e.g. "1.2.3" => "1")
           # STORYBOOK_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version_major }}/storybook
           # mkdir -p ${STORYBOOK_TARGET_DIR}
           # cp -R storybook-static/* ${STORYBOOK_TARGET_DIR}
           APP_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version_major }}
           mkdir -p ${APP_TARGET_DIR}
-          cp -R dist/* ${APP_TARGET_DIR}
+          cp -R dist/rocc-app/* ${APP_TARGET_DIR}
           # Update minor version (e.g. "1.2.3" => "1.2")
           # STORYBOOK_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version_minor }}/storybook
           # mkdir -p ${STORYBOOK_TARGET_DIR}
           # cp -R storybook-static/* ${STORYBOOK_TARGET_DIR}
           APP_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version_minor }}
           mkdir -p ${APP_TARGET_DIR}
-          cp -R dist/* ${APP_TARGET_DIR}
+          cp -R dist/rocc-app/* ${APP_TARGET_DIR}
         fi
         cd gh-pages
         git config --local user.email "action@github.com"
