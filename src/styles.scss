@@ -2,7 +2,7 @@
 @import './styles/general';
 @import '@sage-bionetworks/sage-angular/src/styles';
 
-@import './app/app-theme';
+@import 'app-theme';
 @import '@sage-bionetworks/sage-angular/src/lib-theme';
 
 // Include material core styles.
@@ -15,8 +15,8 @@
   $theme: mat-light-theme($primary, $accent);
 
   @include angular-material-theme($theme);
-  @include rocc-theme($theme);
   @include sage-angular-theme($theme);
+  @include rocc-app-theme($theme);
 }
 
 .rocc-dark-theme {
@@ -26,11 +26,11 @@
   $theme: mat-dark-theme($primary, $accent);
 
   @include angular-material-theme($theme);
-  @include rocc-theme($theme);
   @include sage-angular-theme($theme);
+  @include rocc-app-theme($theme);
 }
 
 // Default theme.
 @include angular-material-theme($theme);
-@include rocc-theme($theme);
 @include sage-angular-theme($theme);
+@include rocc-app-theme($theme);
