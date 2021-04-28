@@ -7,7 +7,7 @@ import { NavbarModule, FooterModule } from '@sage-bionetworks/sage-angular';
 import { ApiModule, Configuration, ConfigurationParameters } from '@sage-bionetworks/rocc-client-angular';
 import { BASE_PATH } from '@sage-bionetworks/rocc-client-angular';
 
-import { AppComponent } from './app.component';
+import { RoccAppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { environment } from '../environments/environment';
 
@@ -20,7 +20,7 @@ export function apiConfigFactory(): Configuration {
 
 @NgModule({
   declarations: [
-    AppComponent
+    RoccAppComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +34,6 @@ export function apiConfigFactory(): Configuration {
   providers: [
     { provide: BASE_PATH, useValue: environment.apiBasePath }
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [RoccAppComponent]
 })
-export class AppModule {}
+export class RoccAppModule {}
