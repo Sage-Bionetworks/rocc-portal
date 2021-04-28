@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostBinding, OnInit } from '@angular/core';
 
 @Component({
   selector: 'rocc-organizations',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./organizations.component.scss']
 })
 export class OrganizationsComponent implements OnInit {
+  @HostBinding('class.main-content') readonly mainContentClass = true;
+
   constructor() {}
 
   ngOnInit(): void {}
