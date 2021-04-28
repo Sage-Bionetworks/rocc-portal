@@ -84,7 +84,7 @@ jobs:
         node-version: ${{ env.node_version }}
     - name: Install dependencies
       run: |
-        npm ci
+        npm run install:dependencies
         npm install -g @angular/cli
     - name: Build ROCC app
       run: ng build --prod --baseHref="${{ env.gh_pages_url }}/${{ steps.prep.outputs.version }}/demo/"
