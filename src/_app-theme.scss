@@ -1,0 +1,51 @@
+@import '~@angular/material/theming';
+
+@import './app/pages/explore/explore-theme';
+@import './app/pages/homepage/homepage-theme';
+@import './app/pages/organizations/organizations-theme';
+@import './app/pages/signin/signin-theme';
+@import './app/pages/signup/signup-theme';
+
+// Styles for the docs app that are based on the current theme.
+@mixin rocc-app-theme($theme) {
+  $primary: map-get($theme, primary);
+  $accent: map-get($theme, accent);
+  $warn: map-get($theme, warn);
+  $background: map-get($theme, background);
+  $foreground: map-get($theme, foreground);
+  $next-theme: mat-palette($mat-red);
+
+  rocc-app {
+    background: mat-color($background, background);
+    color: mat-color($foreground, secondary-text);
+  }
+
+  // .docs-primary-header {
+  //   background: mat-color($primary);
+
+  //   h1 {
+  //     color: mat-color($primary, default-contrast);
+  //   }
+  // }
+
+  // .docs-footer {
+  //   background: mat-color($primary);
+  //   color: mat-color($primary, default-contrast);
+  // }
+
+  // .is-next-version {
+  //   background: mat-color($next-theme, 900) !important;
+  // }
+
+  @include explore-theme($theme);
+  @include homepage-theme($theme);
+  @include organizations-theme($theme);
+  @include signin-theme($theme);
+  @include signup-theme($theme);
+}
+
+// Define the light theme.
+$primary: mat-palette($mat-indigo);
+$accent:  mat-palette($mat-pink, A200, A100, A400);
+
+$theme: mat-light-theme($primary, $accent);

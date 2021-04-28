@@ -25,7 +25,7 @@
     "indent": {
       "options": [
         "spaces",
-        4
+        2
       ]
     },
     "max-classes-per-file": false,
@@ -140,13 +140,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "rocc",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "rocc",
       "kebab-case"
     ]
   }
