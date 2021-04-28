@@ -89,7 +89,7 @@ jobs:
         npm run install:dependencies
         npm install -g @angular/cli
     - name: Build ROCC app
-      run: ng build --prod --baseHref="${{ env.gh_pages_url }}/${{ steps.prep.outputs.version }}/demo/"
+      run: ng build --prod --baseHref="${{ env.gh_pages_url }}/${{ steps.prep.outputs.version }}/"
     # - name: Build storybook
     #   run: npm run build:storybook
     - name: Commit to gh-pages
@@ -100,7 +100,7 @@ jobs:
         # STORYBOOK_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version }}/storybook
         # mkdir -p ${STORYBOOK_TARGET_DIR}
         # cp -R storybook-static/* ${STORYBOOK_TARGET_DIR}
-        APP_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version }}/app
+        APP_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version }}
         mkdir -p ${APP_TARGET_DIR}
         cp -R dist/* ${APP_TARGET_DIR}
         # Update gh-pages: latest, major, and minor versions
@@ -109,21 +109,21 @@ jobs:
           # STORYBOOK_TARGET_DIR=gh-pages/latest/storybook
           # mkdir -p ${STORYBOOK_TARGET_DIR}
           # cp -R storybook-static/* ${STORYBOOK_TARGET_DIR}
-          APP_TARGET_DIR=gh-pages/latest/app
+          APP_TARGET_DIR=gh-pages/latest
           mkdir -p ${APP_TARGET_DIR}
           cp -R dist/* ${APP_TARGET_DIR}
           # Update major version (e.g. "1.2.3" => "1")
           # STORYBOOK_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version_major }}/storybook
           # mkdir -p ${STORYBOOK_TARGET_DIR}
           # cp -R storybook-static/* ${STORYBOOK_TARGET_DIR}
-          APP_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version_major }}/app
+          APP_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version_major }}
           mkdir -p ${APP_TARGET_DIR}
           cp -R dist/* ${APP_TARGET_DIR}
           # Update minor version (e.g. "1.2.3" => "1.2")
           # STORYBOOK_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version_minor }}/storybook
           # mkdir -p ${STORYBOOK_TARGET_DIR}
           # cp -R storybook-static/* ${STORYBOOK_TARGET_DIR}
-          APP_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version_minor }}/app
+          APP_TARGET_DIR=gh-pages/${{ steps.prep.outputs.version_minor }}
           mkdir -p ${APP_TARGET_DIR}
           cp -R dist/* ${APP_TARGET_DIR}
         fi
