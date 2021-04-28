@@ -16,7 +16,7 @@ export class DatabaseSeedComponent implements OnInit {
     //     console.log(res);
     //   },
     //   err => console.error(err));
-    this.tagService.createTag("plop-tag", {})
+    this.tagService.createTag('plop-tag', {})
       .subscribe(res => {
         console.log(res);
       },
