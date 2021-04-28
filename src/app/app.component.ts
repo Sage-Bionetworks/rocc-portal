@@ -11,7 +11,7 @@ import { environment } from '../environments/environment';
     styleUrls: ['./app.component.scss'],
     encapsulation: ViewEncapsulation.None
 })
-export class RoccAppComponent implements OnInit {
+export class AppComponent implements OnInit {
   title = 'ROCC';
   version = environment.appVersion;
   sections: { [key: string]: Section } = SECTIONS;
