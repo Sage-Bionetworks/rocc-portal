@@ -9,6 +9,7 @@ import { BASE_PATH } from '@sage-bionetworks/rocc-client-angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { DatabaseSeedModule } from './components/database-seed/database-seed.module';
 import { environment } from '../environments/environment';
 
 export function apiConfigFactory(): Configuration {
@@ -29,7 +30,8 @@ export function apiConfigFactory(): Configuration {
     AppRoutingModule,
     NavbarModule,
     FooterModule,
-    ApiModule.forRoot(apiConfigFactory)
+    ApiModule.forRoot(apiConfigFactory),
+    DatabaseSeedModule
   ],
   providers: [
     { provide: BASE_PATH, useValue: environment.apiBasePath }
