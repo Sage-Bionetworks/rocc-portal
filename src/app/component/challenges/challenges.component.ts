@@ -6,7 +6,7 @@ import { Challenge } from '@sage-bionetworks/rocc-client-angular';
 import { ChallengeService } from '@sage-bionetworks/rocc-client-angular';
 
 @Component({
-    selector: 'app-challenges',
+    selector: 'rocc-challenges',
     templateUrl: './challenges.component.html',
     styleUrls: ['./challenges.component.scss']
 })

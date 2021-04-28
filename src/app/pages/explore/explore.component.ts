@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-explore',
+  selector: 'rocc-explore',
   templateUrl: './explore.component.html',
   styleUrls: ['./explore.component.scss']
 })
