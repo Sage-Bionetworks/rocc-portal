@@ -15,6 +15,7 @@ export class AppComponent implements OnInit {
   title = 'ROCC';
   version = environment.appVersion;
   sections: { [key: string]: Section } = SECTIONS;
+  seedDatabase = environment.seedDatabase;
 
   constructor() {}
 

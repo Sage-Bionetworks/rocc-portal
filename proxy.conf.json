@@ -5,6 +5,7 @@
     "changeOrigin": true,
     "pathRewrite": {
       "^/api": ""
-    }
+    },
+    "logLevel": "debug"
   }
 }
