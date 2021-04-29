@@ -14,10 +14,12 @@ import {
 })
 export class DatabaseSeedComponent implements OnInit {
 
-  constructor(private challengeService: ChallengeService,
+  constructor(
+    private challengeService: ChallengeService,
     private organizationService: OrganizationService,
     private personService: PersonService,
-    private tagService: TagService) {}
+    private tagService: TagService
+  ) {}
 
   ngOnInit(): void {
     const removeAllDocuments$ = forkJoin([
