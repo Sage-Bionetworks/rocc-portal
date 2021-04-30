@@ -29,17 +29,17 @@ export class DatabaseSeedComponent implements OnInit {
       this.personService.deleteAllPersons(),
       this.tagService.deleteAllTags(),
     ]);
-    
+
     // removeAllDocuments$.subscribe(console.log)
     removeAllDocuments$.toPromise()
       .then(() => {
-        console.log("database is clean!")
-        for (let tag of tagList["tags"]) {
-          this.tagService.createTag(tag["id"], {})
-            .subscribe(id => {
-            console.log("Adding ", id)
-            })
+        console.log('database is clean!');
+        for (const tag of tagList.tags) {
+          this.tagService.createTag(tag.id, {})
+            .subscribe(res => {
+            console.log('Adding ', res);
+            });
         }
-      })
-  }  
+      });
+  }
 }
