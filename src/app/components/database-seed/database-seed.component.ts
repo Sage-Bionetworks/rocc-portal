@@ -4,7 +4,7 @@ import {
   ChallengeService,
   OrganizationService,
   PersonService,
-  TagService,
+  TagService
 } from '@sage-bionetworks/rocc-client-angular';
 import tagList from '../../seeds/dream/tags.json';
 
