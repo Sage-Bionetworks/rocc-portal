@@ -4,8 +4,9 @@ import {
   ChallengeService,
   OrganizationService,
   PersonService,
-  TagService
+  TagService,
 } from '@sage-bionetworks/rocc-client-angular';
+import tagList from '../../seeds/dream/tags.json';
 
 @Component({
   selector: 'rocc-database-seed',
@@ -28,19 +29,17 @@ export class DatabaseSeedComponent implements OnInit {
       this.personService.deleteAllPersons(),
       this.tagService.deleteAllTags(),
     ]);
-
-    removeAllDocuments$.subscribe(console.log);
-
-    // this.tagService.deleteAllTags()
-    //   .subscribe(res => {
-    //     console.log(res);
-    //   },
-    //   err => console.error(err));
-    // this.tagService.createTag('plop-tag', {})
-    //   .subscribe(res => {
-    //     console.log(res);
-    //   },
-    //   err => console.error(err)
-    // );
-  }
+    
+    // removeAllDocuments$.subscribe(console.log)
+    removeAllDocuments$.toPromise()
+      .then(() => {
+        console.log("database is clean!")
+        for (let tag of tagList["tags"]) {
+          this.tagService.createTag(tag["id"], {})
+            .subscribe(id => {
+            console.log("Adding ", id)
+            })
+        }
+      })
+  }  
 }
