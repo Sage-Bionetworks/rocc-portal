@@ -1,4 +1,152 @@
-{
-  "tags": ["Drug", "Toxicogenenetics", "Whole-Cell Parameter", "Cancer", "Breast Cancer", "Network Inference", "Signaling", "Arthritis", "Rheumatoid Arthritis", "Mutation Calling", "AML", "Targeted Cancer Therapy", "Alzheimers", "Olfaction", "Prostate Cancer", "ALS", "Drug Synergy", "Somatic Mutation Calling", "Tumor Heterogeneity", "Viral", "Respiratory Viral", "Module Identification", "Transcription Factor", "Proposals", "Human Health", "Mammography", "Myeloma", "Workflow Execution", "Parkinsons", "Proteogenomics", "Multi-Targeting Drug", "Transcriptomics", "Single Cell", "Drug Kinase Binding", "Malaria", "Preterm Birth", "EHR", "NLP", "CRISPR", "Cell Lineage", "Tumor Deconvolution", "PANACEA", "Metadata", "COVID", "PD1", "Network Toplogy", "Parameter Inference", "Ideal", "Breast", "Drug Sensitivity"]
-}
-  
+[
+  {
+    "id": "drug"
+  },
+  {
+    "id": "toxicogenenetics"
+  },
+  {
+    "id": "whole-cell-parameter"
+  },
+  {
+    "id": "cancer"
+  },
+  {
+    "id": "breast-cancer"
+  },
+  {
+    "id": "network-inference"
+  },
+  {
+    "id": "signaling"
+  },
+  {
+    "id": "arthritis"
+  },
+  {
+    "id": "rheumatoid-arthritis"
+  },
+  {
+    "id": "mutation-calling"
+  },
+  {
+    "id": "aml"
+  },
+  {
+    "id": "targeted-cancer-therapy"
+  },
+  {
+    "id": "alzheimers"
+  },
+  {
+    "id": "olfaction"
+  },
+  {
+    "id": "prostate-cancer"
+  },
+  {
+    "id": "als"
+  },
+  {
+    "id": "drug-synergy"
+  },
+  {
+    "id": "somatic-mutation-calling"
+  },
+  {
+    "id": "tumor-heterogeneity"
+  },
+  {
+    "id": "viral"
+  },
+  {
+    "id": "respiratory-viral"
+  },
+  {
+    "id": "module-identification"
+  },
+  {
+    "id": "transcription-factor"
+  },
+  {
+    "id": "proposals"
+  },
+  {
+    "id": "human-health"
+  },
+  {
+    "id": "mammography"
+  },
+  {
+    "id": "myeloma"
+  },
+  {
+    "id": "workflow-execution"
+  },
+  {
+    "id": "parkinsons"
+  },
+  {
+    "id": "proteogenomics"
+  },
+  {
+    "id": "multi-targeting-drug"
+  },
+  {
+    "id": "transcriptomics"
+  },
+  {
+    "id": "single-cell"
+  },
+  {
+    "id": "drug-kinase-binding"
+  },
+  {
+    "id": "malaria"
+  },
+  {
+    "id": "preterm-birth"
+  },
+  {
+    "id": "ehr"
+  },
+  {
+    "id": "nlp"
+  },
+  {
+    "id": "crispr"
+  },
+  {
+    "id": "cell-lineage"
+  },
+  {
+    "id": "tumor-deconvolution"
+  },
+  {
+    "id": "panacea"
+  },
+  {
+    "id": "metadata"
+  },
+  {
+    "id": "covid"
+  },
+  {
+    "id": "pd1"
+  },
+  {
+    "id": "network-toplogy"
+  },
+  {
+    "id": "parameter-inference"
+  },
+  {
+    "id": "ideal"
+  },
+  {
+    "id": "breast"
+  },
+  {
+    "id": "drug-sensitivity"
+  }
+]
