@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { forkJoin } from 'rxjs';
+import { mergeMap } from 'rxjs/operators';
 import {
   ChallengeService,
   OrganizationService,
@@ -23,23 +24,19 @@ export class DatabaseSeedComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    const removeAllDocuments$ = forkJoin([
+    const removeDocuments$ = forkJoin([
       this.challengeService.deleteAllChallenges(),
       this.organizationService.deleteAllOrganizations(),
       this.personService.deleteAllPersons(),
       this.tagService.deleteAllTags(),
     ]);
 
-    // removeAllDocuments$.subscribe(console.log)
-    removeAllDocuments$.toPromise()
-      .then(() => {
-        console.log('database is clean!');
-        for (const tag of tagList.tags) {
-          this.tagService.createTag(tag.id, {})
-            .subscribe(res => {
-            console.log('Adding ', res);
-            });
-        }
-      });
+    const addTags$ = forkJoin(
+      tagList.tags.map(tag => this.tagService.createTag(tag.id, {}))
+    );
+
+    removeDocuments$
+      .pipe(mergeMap(() => addTags$))
+      .subscribe(console.log);
   }
 }
