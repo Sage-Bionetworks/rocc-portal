@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { forkJoin } from 'rxjs';
-import { mergeMap } from 'rxjs/operators';
+import { forkJoin, from } from 'rxjs';
+import { mergeMap, bufferCount } from 'rxjs/operators';
 import {
   ChallengeService,
   OrganizationService,
   PersonService,
   TagService
 } from '@sage-bionetworks/rocc-client-angular';
+import { Tag } from '@sage-bionetworks/rocc-client-angular';
 import tagList from '../../seeds/dream/tags.json';
 
 @Component({
@@ -31,8 +32,10 @@ export class DatabaseSeedComponent implements OnInit {
       this.tagService.deleteAllTags(),
     ]);
 
+    const tags: Tag[] = tagList.tags;
+
     const addTags$ = forkJoin(
-      tagList.tags.map(tag => this.tagService.createTag(tag.id, {}))
+      tags.map(tag => this.tagService.createTag(tag.tagId, {}))
     );
 
     removeDocuments$
