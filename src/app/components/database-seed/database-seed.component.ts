@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { forkJoin, from } from 'rxjs';
-import { mergeMap, bufferCount } from 'rxjs/operators';
+import { forkJoin } from 'rxjs';
+import { mergeMap, tap } from 'rxjs/operators';
 import {
   ChallengeService,
   OrganizationService,
@@ -32,14 +32,21 @@ export class DatabaseSeedComponent implements OnInit {
       this.tagService.deleteAllTags(),
     ]);
 
-    const tags: Tag[] = tagList.tags;
+    // const tags: Tag[] = tagList.tags;
+    const tags = tagList.tags; // TODO: replace by above line when Tag.tagId is no longer optional
 
     const addTags$ = forkJoin(
       tags.map(tag => this.tagService.createTag(tag.tagId, {}))
     );
 
     removeDocuments$
-      .pipe(mergeMap(() => addTags$))
-      .subscribe(console.log);
+      .pipe(
+        mergeMap(() => addTags$),
+        tap(console.log),
+        // mergeMap(() => addPersons$)
+      )
+      .subscribe(res => {
+        console.log('done', res);
+      }, err => console.log);
   }
 }
