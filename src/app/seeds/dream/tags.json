@@ -1,151 +1,151 @@
 {
   "tags": [
     {
-      "id": "drug"
+      "tagId": "drug"
     },
     {
-      "id": "toxicogenenetics"
+      "tagId": "toxicogenenetics"
     },
     {
-      "id": "whole-cell-parameter"
+      "tagId": "whole-cell-parameter"
     },
     {
-      "id": "cancer"
+      "tagId": "cancer"
     },
     {
-      "id": "breast-cancer"
+      "tagId": "breast-cancer"
     },
     {
-      "id": "network-inference"
+      "tagId": "network-inference"
     },
     {
-      "id": "signaling"
+      "tagId": "signaling"
     },
     {
-      "id": "arthritis"
+      "tagId": "arthritis"
     },
     {
-      "id": "rheumatoid-arthritis"
+      "tagId": "rheumatoid-arthritis"
     },
     {
-      "id": "mutation-calling"
+      "tagId": "mutation-calling"
     },
     {
-      "id": "aml"
+      "tagId": "aml"
     },
     {
-      "id": "targeted-cancer-therapy"
+      "tagId": "targeted-cancer-therapy"
     },
     {
-      "id": "alzheimers"
+      "tagId": "alzheimers"
     },
     {
-      "id": "olfaction"
+      "tagId": "olfaction"
     },
     {
-      "id": "prostate-cancer"
+      "tagId": "prostate-cancer"
     },
     {
-      "id": "als"
+      "tagId": "als"
     },
     {
-      "id": "drug-synergy"
+      "tagId": "drug-synergy"
     },
     {
-      "id": "somatic-mutation-calling"
+      "tagId": "somatic-mutation-calling"
     },
     {
-      "id": "tumor-heterogeneity"
+      "tagId": "tumor-heterogeneity"
     },
     {
-      "id": "viral"
+      "tagId": "viral"
     },
     {
-      "id": "respiratory-viral"
+      "tagId": "respiratory-viral"
     },
     {
-      "id": "module-identification"
+      "tagId": "module-identification"
     },
     {
-      "id": "transcription-factor"
+      "tagId": "transcription-factor"
     },
     {
-      "id": "proposals"
+      "tagId": "proposals"
     },
     {
-      "id": "human-health"
+      "tagId": "human-health"
     },
     {
-      "id": "mammography"
+      "tagId": "mammography"
     },
     {
-      "id": "myeloma"
+      "tagId": "myeloma"
     },
     {
-      "id": "workflow-execution"
+      "tagId": "workflow-execution"
     },
     {
-      "id": "parkinsons"
+      "tagId": "parkinsons"
     },
     {
-      "id": "proteogenomics"
+      "tagId": "proteogenomics"
     },
     {
-      "id": "multi-targeting-drug"
+      "tagId": "multi-targeting-drug"
     },
     {
-      "id": "transcriptomics"
+      "tagId": "transcriptomics"
     },
     {
-      "id": "single-cell"
+      "tagId": "single-cell"
     },
     {
-      "id": "drug-kinase-binding"
+      "tagId": "drug-kinase-binding"
     },
     {
-      "id": "malaria"
+      "tagId": "malaria"
     },
     {
-      "id": "preterm-birth"
+      "tagId": "preterm-birth"
     },
     {
-      "id": "ehr"
+      "tagId": "ehr"
     },
     {
-      "id": "nlp"
+      "tagId": "nlp"
     },
     {
-      "id": "crispr"
+      "tagId": "crispr"
     },
     {
-      "id": "cell-lineage"
+      "tagId": "cell-lineage"
     },
     {
-      "id": "tumor-deconvolution"
+      "tagId": "tumor-deconvolution"
     },
     {
-      "id": "panacea"
+      "tagId": "panacea"
     },
     {
-      "id": "metadata"
+      "tagId": "metadata"
     },
     {
-      "id": "covid"
+      "tagId": "covid"
     },
     {
-      "id": "pd1"
+      "tagId": "pd1"
     },
     {
-      "id": "network-topology"
+      "tagId": "network-topology"
     },
     {
-      "id": "parameter-inference"
+      "tagId": "parameter-inference"
     },
     {
-      "id": "breast"
+      "tagId": "breast"
     },
     {
-      "id": "drug-sensitivity"
+      "tagId": "drug-sensitivity"
     }
   ]
 }
