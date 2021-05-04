@@ -1,11 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { forkJoin } from 'rxjs';
+import { mergeMap, tap } from 'rxjs/operators';
 import {
   ChallengeService,
   OrganizationService,
   PersonService,
   TagService
 } from '@sage-bionetworks/rocc-client-angular';
+import { Tag } from '@sage-bionetworks/rocc-client-angular';
+import tagList from '../../seeds/dream/tags.json';
 
 @Component({
   selector: 'rocc-database-seed',
@@ -22,25 +25,28 @@ export class DatabaseSeedComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    const removeAllDocuments$ = forkJoin([
+    const removeDocuments$ = forkJoin([
       this.challengeService.deleteAllChallenges(),
       this.organizationService.deleteAllOrganizations(),
       this.personService.deleteAllPersons(),
       this.tagService.deleteAllTags(),
     ]);
 
-    removeAllDocuments$.subscribe(console.log);
+    // const tags: Tag[] = tagList.tags;
+    const tags = tagList.tags; // TODO: replace by above line when Tag.tagId is no longer optional
 
-    // this.tagService.deleteAllTags()
-    //   .subscribe(res => {
-    //     console.log(res);
-    //   },
-    //   err => console.error(err));
-    // this.tagService.createTag('plop-tag', {})
-    //   .subscribe(res => {
-    //     console.log(res);
-    //   },
-    //   err => console.error(err)
-    // );
+    const addTags$ = forkJoin(
+      tags.map(tag => this.tagService.createTag(tag.tagId, {}))
+    );
+
+    removeDocuments$
+      .pipe(
+        mergeMap(() => addTags$),
+        tap(console.log),
+        // mergeMap(() => addPersons$)
+      )
+      .subscribe(res => {
+        console.log('done', res);
+      }, err => console.log);
   }
 }
