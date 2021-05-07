@@ -1,0 +1,1699 @@
+{
+  "persons": [
+    {
+      "firstName": "Abhi",
+      "lastName": "Pratap",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Adam",
+      "lastName": "Margolin",
+      "organizations": [
+        "sage-bionetworks",
+        "oregon-health-science-university",
+        "icahn-school-of-medicine-at-mount-sinai"
+      ]
+    },
+    {
+      "firstName": "Adi",
+      "lastName": "Tarca",
+      "organizations": [
+        "wayne-state-university"
+      ]
+    },
+    {
+      "firstName": "Alejandro",
+      "lastName": "Granados",
+      "organizations": [
+        "california-institute-of-technology"
+      ]
+    },
+    {
+      "firstName": "Alejandro",
+      "lastName": "Villaverde",
+      "organizations": [
+        "consejo-superior-de-investigaciones-cientificas"
+      ]
+    },
+    {
+      "firstName": "Alex",
+      "lastName": "Bisberg",
+      "organizations": [
+        "rice-university"
+      ]
+    },
+    {
+      "firstName": "Alex",
+      "lastName": "Mariakakis",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Alex",
+      "lastName": "Tropsha",
+      "organizations": [
+        "university-of-north-carolina-at-chapel-hill"
+      ]
+    },
+    {
+      "firstName": "Amber",
+      "lastName": "Simpson",
+      "organizations": [
+        "queens-university"
+      ]
+    },
+    {
+      "firstName": "Amel",
+      "lastName": "Ghouila",
+      "organizations": [
+        "h3abionet"
+      ]
+    },
+    {
+      "firstName": "Amina",
+      "lastName": "Qutub",
+      "organizations": [
+        "rice-university"
+      ]
+    },
+    {
+      "firstName": "Amy",
+      "lastName": "Truong",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Andre",
+      "lastName": "Falcao",
+      "organizations": [
+        "university-of-lisbon"
+      ]
+    },
+    {
+      "firstName": "Andre",
+      "lastName": "Schultz",
+      "organizations": [
+        "rice-university"
+      ]
+    },
+    {
+      "firstName": "Andrea",
+      "lastName": "Califano",
+      "organizations": [
+        "columbia-university"
+      ]
+    },
+    {
+      "firstName": "Andreas",
+      "lastName": "Keller",
+      "organizations": [
+        "rockefeller-university"
+      ]
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Lamb",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Andy",
+      "lastName": "Simmons",
+      "organizations": [
+        "kings-college-london"
+      ]
+    },
+    {
+      "firstName": "Anna",
+      "lastName": "Cichonska",
+      "organizations": [
+        "institute-for-molecular-medicine-finland"
+      ]
+    },
+    {
+      "firstName": "Anna",
+      "lastName": "Goldenberg",
+      "organizations": [
+        "university-of-toronto",
+        "hospital-for-sick-children"
+      ]
+    },
+    {
+      "firstName": "Anshul",
+      "lastName": "Kundaje",
+      "organizations": [
+        "stanford-university"
+      ]
+    },
+    {
+      "firstName": "Arno",
+      "lastName": "Klein",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Arun",
+      "lastName": "Jayaraman",
+      "organizations": [
+        "northwestern-university"
+      ]
+    },
+    {
+      "firstName": "Arun",
+      "lastName": "Mahadevan",
+      "organizations": [
+        "rice-university"
+      ]
+    },
+    {
+      "firstName": "Attila",
+      "lastName": "Gabor",
+      "organizations": [
+        "heidelberg-university"
+      ]
+    },
+    {
+      "firstName": "Aviad",
+      "lastName": "Tsherniak",
+      "organizations": [
+        "broad-institute"
+      ]
+    },
+    {
+      "firstName": "Avner",
+      "lastName": "Schlessinger",
+      "organizations": [
+        "icahn-school-of-medicine-at-mount-sinai"
+      ]
+    },
+    {
+      "firstName": "Balaguru",
+      "lastName": "Ravikumar",
+      "organizations": [
+        "institute-for-molecular-medicine-finland"
+      ]
+    },
+    {
+      "firstName": "Barbara",
+      "lastName": "Weir",
+      "organizations": [
+        "broad-institute"
+      ]
+    },
+    {
+      "firstName": "Bence",
+      "lastName": "Szalai",
+      "organizations": [
+        "semmelweis-university"
+      ]
+    },
+    {
+      "firstName": "Benjamin",
+      "lastName": "Logsdon",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Benjamin",
+      "lastName": "Vincent",
+      "organizations": [
+        "university-of-north-carolina-at-chapel-hill"
+      ]
+    },
+    {
+      "firstName": "Bernd",
+      "lastName": "Bodenmiller",
+      "organizations": [
+        "university-of-zurich"
+      ]
+    },
+    {
+      "firstName": "Bill",
+      "lastName": "Hahn",
+      "organizations": [
+        "broad-institute",
+        "dana-farber-cancer-institute"
+      ]
+    },
+    {
+      "firstName": "Bogdan",
+      "lastName": "Done",
+      "organizations": [
+        "wayne-state-university"
+      ]
+    },
+    {
+      "firstName": "Brady",
+      "lastName": "Bernard",
+      "organizations": [
+        "providence-health-services"
+      ]
+    },
+    {
+      "firstName": "Brandon",
+      "lastName": "Allgood",
+      "organizations": [
+        "numerate"
+      ]
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "Bot",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "O",
+      "organizations": [
+        "global-alliance-for-genomics-and-health",
+        "university-of-california-santa-cruz"
+      ]
+    },
+    {
+      "firstName": "Brian",
+      "lastName": "White",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Bron",
+      "lastName": "Kisler",
+      "organizations": [
+        "national-cancer-institute"
+      ]
+    },
+    {
+      "firstName": "Bruce",
+      "lastName": "Hoff",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Bryon",
+      "lastName": "Long",
+      "organizations": [
+        "rice-university"
+      ]
+    },
+    {
+      "firstName": "Charles",
+      "lastName": "Goldthwaite",
+      "organizations": [
+        "national-institutes-of-health"
+      ]
+    },
+    {
+      "firstName": "Chenyue",
+      "lastName": "Hu",
+      "organizations": [
+        "rice-university"
+      ]
+    },
+    {
+      "firstName": "Chloe",
+      "lastName": "Azencott",
+      "organizations": [
+        "mines-paristech",
+        "institut-curie"
+      ]
+    },
+    {
+      "firstName": "Christian",
+      "lastName": "Basile",
+      "organizations": [
+        "urban-green-energy"
+      ]
+    },
+    {
+      "firstName": "Christine",
+      "lastName": "Suver",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Bare",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Christopher",
+      "lastName": "Maher",
+      "organizations": [
+        "washington-university-in-st-louis"
+      ]
+    },
+    {
+      "firstName": "Cindy",
+      "lastName": "Deleon",
+      "organizations": [
+        "icahn-school-of-medicine-at-mount-sinai"
+      ]
+    },
+    {
+      "firstName": "Cristina",
+      "lastName": "Caescu",
+      "organizations": [
+        "columbia-university"
+      ]
+    },
+    {
+      "firstName": "Daisy",
+      "lastName": "Daeschler",
+      "organizations": [
+        "michael-j-fox-foundation"
+      ]
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Huston",
+      "organizations": [
+        "bristol-myers-squibb"
+      ]
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Marbach",
+      "organizations": [
+        "university-of-lausanne"
+      ]
+    },
+    {
+      "firstName": "Daniela",
+      "lastName": "Brunner",
+      "organizations": [
+        "early-signal-foundation"
+      ]
+    },
+    {
+      "firstName": "Daniela",
+      "lastName": "Gerhard",
+      "organizations": [
+        "national-institutes-of-health",
+        "national-cancer-institute",
+        "cancer-target-discovery-and-development"
+      ]
+    },
+    {
+      "firstName": "David",
+      "lastName": "Alonso",
+      "organizations": [
+        "michael-j-fox-foundation"
+      ]
+    },
+    {
+      "firstName": "David",
+      "lastName": "Carbone",
+      "organizations": [
+        "ohio-state-university"
+      ]
+    },
+    {
+      "firstName": "David",
+      "lastName": "Fardo",
+      "organizations": [
+        "university-of-kentucky"
+      ]
+    },
+    {
+      "firstName": "David",
+      "lastName": "Fenyo",
+      "organizations": [
+        "new-york-university"
+      ]
+    },
+    {
+      "firstName": "David",
+      "lastName": "Lamparter",
+      "organizations": [
+        "university-of-lausanne"
+      ]
+    },
+    {
+      "firstName": "David",
+      "lastName": "Noren",
+      "organizations": [
+        "rice-university"
+      ]
+    },
+    {
+      "firstName": "David",
+      "lastName": "Wedge",
+      "organizations": [
+        "wellcome-sanger-institute"
+      ]
+    },
+    {
+      "firstName": "Deepak",
+      "lastName": "Chandran",
+      "organizations": [
+        "autodesk"
+      ]
+    },
+    {
+      "firstName": "Denis",
+      "lastName": "Yuen",
+      "organizations": [
+        "dockstore",
+        "ontario-institute-for-cancer-research"
+      ]
+    },
+    {
+      "firstName": "Denise",
+      "lastName": "Warzel",
+      "organizations": [
+        "national-cancer-institute"
+      ]
+    },
+    {
+      "firstName": "Dongmei",
+      "lastName": "Sun",
+      "organizations": [
+        "university-of-alabama-at-birmingham"
+      ]
+    },
+    {
+      "firstName": "Doreen",
+      "lastName": "Valentine",
+      "organizations": [
+        "bristol-myers-squibb"
+      ]
+    },
+    {
+      "firstName": "Doug",
+      "lastName": "Bassett",
+      "organizations": [
+        "celgene"
+      ]
+    },
+    {
+      "firstName": "Ehud",
+      "lastName": "Shapiro",
+      "organizations": [
+        "weizmann-institute-of-science"
+      ]
+    },
+    {
+      "firstName": "Eli",
+      "lastName": "Stahl",
+      "organizations": [
+        "mount-sinai"
+      ]
+    },
+    {
+      "firstName": "Eric",
+      "lastName": "Johnson",
+      "organizations": [
+        "national-cancer-institute"
+      ]
+    },
+    {
+      "firstName": "Erik",
+      "lastName": "Engquist",
+      "organizations": [
+        "rice-university"
+      ]
+    },
+    {
+      "firstName": "Erin",
+      "lastName": "Soderberg",
+      "organizations": [
+        "verily"
+      ]
+    },
+    {
+      "firstName": "Eugene",
+      "lastName": "Douglass",
+      "organizations": [
+        "columbia-university"
+      ]
+    },
+    {
+      "firstName": "Federico",
+      "lastName": "Parisi",
+      "organizations": [
+        "harvard-university"
+      ]
+    },
+    {
+      "firstName": "Francesca",
+      "lastName": "Petralia",
+      "organizations": [
+        "mount-sinai"
+      ]
+    },
+    {
+      "firstName": "Gaia",
+      "lastName": "Andreoletti",
+      "organizations": [
+        "university-of-california-san-francisco"
+      ]
+    },
+    {
+      "firstName": "Geoffrey",
+      "lastName": "Siwo",
+      "organizations": [
+        "center-for-research-computing",
+        "eck-institute-for-global-health"
+      ]
+    },
+    {
+      "firstName": "Gilberto",
+      "lastName": "Fragoso",
+      "organizations": [
+        "national-cancer-institute"
+      ]
+    },
+    {
+      "firstName": "Guillermo",
+      "lastName": "Cecchi",
+      "organizations": [
+        "ibm-research"
+      ]
+    },
+    {
+      "firstName": "Gustavo",
+      "lastName": "Stolovitzky",
+      "organizations": [
+        "mount-sinai",
+        "icahn-school-of-medicine-at-mount-sinai",
+        "ibm-research"
+      ]
+    },
+    {
+      "firstName": "Han",
+      "lastName": "Chang",
+      "organizations": [
+        "bristol-myers-squibb"
+      ]
+    },
+    {
+      "firstName": "Heather",
+      "lastName": "Carlson",
+      "organizations": [
+        "university-of-michigan"
+      ]
+    },
+    {
+      "firstName": "Heinz",
+      "lastName": "Koeppl",
+      "organizations": [
+        "eth-zurich"
+      ]
+    },
+    {
+      "firstName": "Henry",
+      "lastName": "Rodriguez",
+      "organizations": [
+        "national-cancer-institute"
+      ]
+    },
+    {
+      "firstName": "Irepan",
+      "lastName": "Salvador",
+      "organizations": [
+        "londons-global-university"
+      ]
+    },
+    {
+      "firstName": "Jacob",
+      "lastName": "Roberts",
+      "organizations": [
+        "icahn-school-of-medicine-at-mount-sinai"
+      ]
+    },
+    {
+      "firstName": "Jake",
+      "lastName": "Chen",
+      "organizations": [
+        "university-of-alabama-at-birmingham"
+      ]
+    },
+    {
+      "firstName": "James",
+      "lastName": "Costello",
+      "organizations": [
+        "university-of-colorado-anschutz-medical-campus"
+      ]
+    },
+    {
+      "firstName": "James",
+      "lastName": "Eddy",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Jay",
+      "lastName": "Hodgson",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Jay",
+      "lastName": "Shendure",
+      "organizations": [
+        "university-of-washington"
+      ]
+    },
+    {
+      "firstName": "Jeff",
+      "lastName": "Greenberg",
+      "organizations": [
+        "corrona"
+      ]
+    },
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Tyner",
+      "organizations": [
+        "oregon-health-science-university"
+      ]
+    },
+    {
+      "firstName": "Jelai",
+      "lastName": "Wang",
+      "organizations": [
+        "university-of-alabama-at-birmingham"
+      ]
+    },
+    {
+      "firstName": "Jenine",
+      "lastName": "Sanzari",
+      "organizations": [
+        "bristol-myers-squibb"
+      ]
+    },
+    {
+      "firstName": "Jennifer",
+      "lastName": "Couch",
+      "organizations": [
+        "national-cancer-institute"
+      ]
+    },
+    {
+      "firstName": "Jesse",
+      "lastName": "Boehm",
+      "organizations": [
+        "broad-institute"
+      ]
+    },
+    {
+      "firstName": "Jessen",
+      "lastName": "Yu",
+      "organizations": [
+        "numerate"
+      ]
+    },
+    {
+      "firstName": "Jing",
+      "lastName": "Cui",
+      "organizations": [
+        "brigham-and-womens-hospital"
+      ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "Philip",
+      "organizations": [
+        "memorial-sloan-kettering-cancer-center"
+      ]
+    },
+    {
+      "firstName": "John",
+      "lastName": "Kauwe",
+      "organizations": [
+        "brigham-young-university"
+      ]
+    },
+    {
+      "firstName": "Jonathan",
+      "lastName": "Dry",
+      "organizations": [
+        "astrazeneca"
+      ]
+    },
+    {
+      "firstName": "Jonathan",
+      "lastName": "Karr",
+      "organizations": [
+        "stanford-university"
+      ]
+    },
+    {
+      "firstName": "Joseph",
+      "lastName": "Szustakowski",
+      "organizations": [
+        "bristol-myers-squibb"
+      ]
+    },
+    {
+      "firstName": "Josh",
+      "lastName": "Stuart",
+      "organizations": [
+        "university-of-california-santa-cruz"
+      ]
+    },
+    {
+      "firstName": "Joshua",
+      "lastName": "Stuart",
+      "organizations": [
+        "university-of-california-santa-cruz"
+      ]
+    },
+    {
+      "firstName": "Jovan",
+      "lastName": "Tanevski",
+      "organizations": [
+        "heidelberg-university"
+      ]
+    },
+    {
+      "firstName": "Julia",
+      "lastName": "Keefe",
+      "organizations": [
+        "michael-j-fox-foundation"
+      ]
+    },
+    {
+      "firstName": "Julie",
+      "lastName": "Bletz",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Julio",
+      "lastName": "Saez",
+      "organizations": [
+        "heidelberg-university",
+        "european-bioinformatics-institute",
+        "rwth-aachen-university"
+      ]
+    },
+    {
+      "firstName": "Justin",
+      "lastName": "Guinney",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Justin",
+      "lastName": "Prosser",
+      "organizations": [
+        "university-of-washington"
+      ]
+    },
+    {
+      "firstName": "Ka",
+      "lastName": "Lin",
+      "organizations": [
+        "rice-university"
+      ]
+    },
+    {
+      "firstName": "Kahn",
+      "lastName": "Rhrissorrakrai",
+      "organizations": [
+        "ibm-research"
+      ]
+    },
+    {
+      "firstName": "Kaleb",
+      "lastName": "Michaud",
+      "organizations": [
+        "arthritis-internet-registry"
+      ]
+    },
+    {
+      "firstName": "Karen",
+      "lastName": "Batch",
+      "organizations": [
+        "queens-university"
+      ]
+    },
+    {
+      "firstName": "Kasper",
+      "lastName": "Lage",
+      "organizations": [
+        "massachusetts-general-hospital"
+      ]
+    },
+    {
+      "firstName": "Kathryn",
+      "lastName": "Richmond",
+      "organizations": [
+        "allen-institute"
+      ]
+    },
+    {
+      "firstName": "Katrina",
+      "lastName": "Button",
+      "organizations": [
+        "eck-institute-for-global-health"
+      ]
+    },
+    {
+      "firstName": "Kely",
+      "lastName": "Norel",
+      "organizations": [
+        "ibm-research"
+      ]
+    },
+    {
+      "firstName": "Ken",
+      "lastName": "Kehl",
+      "organizations": [
+        "dana-farber-cancer-institute"
+      ]
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Osborn",
+      "organizations": [
+        "global-alliance-for-genomics-and-health",
+        "university-of-california-santa-cruz"
+      ]
+    },
+    {
+      "firstName": "Kristen",
+      "lastName": "Dang",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Krystal",
+      "lastName": "Rivers",
+      "organizations": [
+        "national-institutes-of-health"
+      ]
+    },
+    {
+      "firstName": "Kyle",
+      "lastName": "Ellrott",
+      "organizations": [
+        "oregon-health-science-university"
+      ]
+    },
+    {
+      "firstName": "Lara",
+      "lastName": "Mangravite",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Larsson",
+      "lastName": "Omberg",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Laura",
+      "lastName": "Heiser",
+      "organizations": [
+        "oregon-health-science-university"
+      ]
+    },
+    {
+      "firstName": "Lauren",
+      "lastName": "Bataille",
+      "organizations": [
+        "michael-j-fox-foundation"
+      ]
+    },
+    {
+      "firstName": "Leslie",
+      "lastName": "Vosshall",
+      "organizations": [
+        "rockefeller-university"
+      ]
+    },
+    {
+      "firstName": "Lincoln",
+      "lastName": "Stein",
+      "organizations": [
+        "ontario-institute-for-cancer-research"
+      ]
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Geda",
+      "organizations": [
+        "rice-university"
+      ]
+    },
+    {
+      "firstName": "Louis",
+      "lastName": "Bridges",
+      "organizations": [
+        "university-of-alabama-at-birmingham"
+      ]
+    },
+    {
+      "firstName": "Luba",
+      "lastName": "Smolensky",
+      "organizations": [
+        "michael-j-fox-foundation"
+      ]
+    },
+    {
+      "firstName": "Luc",
+      "lastName": "Evers",
+      "organizations": [
+        "radboud-university-medical-center"
+      ]
+    },
+    {
+      "firstName": "Luca",
+      "lastName": "Foschini",
+      "organizations": [
+        "evidation-health"
+      ]
+    },
+    {
+      "firstName": "Luke",
+      "lastName": "Geneslaw",
+      "organizations": [
+        "memorial-sloan-kettering-cancer-center"
+      ]
+    },
+    {
+      "firstName": "Mahalaxmi",
+      "lastName": "Aburi",
+      "organizations": [
+        "columbia-university"
+      ]
+    },
+    {
+      "firstName": "Marco",
+      "lastName": "Tognetti",
+      "organizations": [
+        "eth-zurich",
+        "university-of-zurich"
+      ]
+    },
+    {
+      "firstName": "Marina",
+      "lastName": "Sirota",
+      "organizations": [
+        "university-of-california-san-francisco"
+      ]
+    },
+    {
+      "firstName": "Mark",
+      "lastName": "Frasier",
+      "organizations": [
+        "michael-j-fox-foundation"
+      ]
+    },
+    {
+      "firstName": "Markus",
+      "lastName": "Covert",
+      "organizations": [
+        "stanford-university"
+      ]
+    },
+    {
+      "firstName": "Mason",
+      "lastName": "Frazier",
+      "organizations": [
+        "university-of-alabama-at-birmingham"
+      ]
+    },
+    {
+      "firstName": "Max",
+      "lastName": "Telford",
+      "organizations": [
+        "londons-global-university"
+      ]
+    },
+    {
+      "firstName": "Mehmet",
+      "lastName": "Gonen",
+      "organizations": [
+        "oregon-health-science-university"
+      ]
+    },
+    {
+      "firstName": "Meliha",
+      "lastName": "Yetisgen",
+      "organizations": [
+        "university-of-washington"
+      ]
+    },
+    {
+      "firstName": "Melissa",
+      "lastName": "Haendel",
+      "organizations": [
+        "oregon-health-science-university"
+      ]
+    },
+    {
+      "firstName": "Merit",
+      "lastName": "Cudkowicz",
+      "organizations": [
+        "massachusetts-general-hospital"
+      ]
+    },
+    {
+      "firstName": "Mette",
+      "lastName": "Peters",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Mi",
+      "lastName": "Yang",
+      "organizations": [
+        "rwth-aachen-university"
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Elowitz",
+      "organizations": [
+        "california-institute-of-technology"
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Mason",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Unger",
+      "organizations": [
+        "eth-zurich"
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Ferdig",
+      "organizations": [
+        "eck-institute-for-global-health"
+      ]
+    },
+    {
+      "firstName": "Micheal",
+      "lastName": "Mason",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Mike",
+      "lastName": "Kellen",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Mohammad",
+      "lastName": "Shaikh",
+      "organizations": [
+        "bristol-myers-squibb"
+      ]
+    },
+    {
+      "firstName": "Nathan",
+      "lastName": "Boley",
+      "organizations": [
+        "stanford-university"
+      ]
+    },
+    {
+      "firstName": "Neta",
+      "lastName": "Zach",
+      "organizations": [
+        "prize4life"
+      ]
+    },
+    {
+      "firstName": "Nicholas",
+      "lastName": "Shawen",
+      "organizations": [
+        "northwestern-university"
+      ]
+    },
+    {
+      "firstName": "Nicholas",
+      "lastName": "Tustison",
+      "organizations": [
+        "university-of-virginia"
+      ]
+    },
+    {
+      "firstName": "Nicola",
+      "lastName": "Mulder",
+      "organizations": [
+        "h3abionet"
+      ]
+    },
+    {
+      "firstName": "Nicole",
+      "lastName": "Huber",
+      "organizations": [
+        "allen-institute"
+      ]
+    },
+    {
+      "firstName": "Nikolaus",
+      "lastName": "Rajewsky",
+      "organizations": [
+        "max-delbruck-center-for-molecular-medicine"
+      ]
+    },
+    {
+      "firstName": "Nikos",
+      "lastName": "Karaiskos",
+      "organizations": [
+        "max-delbruck-center-for-molecular-medicine"
+      ]
+    },
+    {
+      "firstName": "Nima",
+      "lastName": "Aghaeepour",
+      "organizations": [
+        "stanford-university"
+      ]
+    },
+    {
+      "firstName": "Ofir",
+      "lastName": "Raz",
+      "organizations": [
+        "weizmann-institute-of-science"
+      ]
+    },
+    {
+      "firstName": "Oleg",
+      "lastName": "Moiseyenko",
+      "organizations": [
+        "bristol-myers-squibb"
+      ]
+    },
+    {
+      "firstName": "Orla",
+      "lastName": "Hardiman",
+      "organizations": [
+        "trinity-college-institute-of-neuroscience"
+      ]
+    },
+    {
+      "firstName": "Pablo",
+      "lastName": "Meyer",
+      "organizations": [
+        "ibm-research"
+      ]
+    },
+    {
+      "firstName": "Pamela",
+      "lastName": "Birriel",
+      "organizations": [
+        "national-institutes-of-health"
+      ]
+    },
+    {
+      "firstName": "Paola",
+      "lastName": "Picotti",
+      "organizations": [
+        "eth-zurich"
+      ]
+    },
+    {
+      "firstName": "Paolo",
+      "lastName": "Bonato",
+      "organizations": [
+        "harvard-university"
+      ]
+    },
+    {
+      "firstName": "Paquita",
+      "lastName": "Vazquez",
+      "organizations": [
+        "broad-institute"
+      ]
+    },
+    {
+      "firstName": "Parul",
+      "lastName": "Doshi",
+      "organizations": [
+        "bristol-myers-squibb"
+      ]
+    },
+    {
+      "firstName": "Patrick",
+      "lastName": "Aubin",
+      "organizations": [
+        "university-of-washington"
+      ]
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "Spellman",
+      "organizations": [
+        "oregon-health-science-university"
+      ]
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "Boutros",
+      "organizations": [
+        "ontario-institute-for-cancer-research"
+      ]
+    },
+    {
+      "firstName": "Pei",
+      "lastName": "Wang",
+      "organizations": [
+        "mount-sinai"
+      ]
+    },
+    {
+      "firstName": "Percio",
+      "lastName": "Gulko",
+      "organizations": [
+        "icahn-school-of-medicine-at-mount-sinai"
+      ]
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Banda",
+      "organizations": [
+        "university-of-luxembourg"
+      ]
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Gregersen",
+      "organizations": [
+        "feinstein-institutes-for-medical-research"
+      ]
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Loo",
+      "organizations": [
+        "francis-crick-institute"
+      ]
+    },
+    {
+      "firstName": "Phil",
+      "lastName": "Snyder",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Po",
+      "lastName": "Loh",
+      "organizations": [
+        "massachusetts-institute-of-technology"
+      ]
+    },
+    {
+      "firstName": "Quaid",
+      "lastName": "Morris",
+      "organizations": [
+        "university-of-toronto"
+      ]
+    },
+    {
+      "firstName": "Ramy",
+      "lastName": "Sweidan",
+      "organizations": [
+        "rice-university"
+      ]
+    },
+    {
+      "firstName": "Raquel",
+      "lastName": "Norel",
+      "organizations": [
+        "ibm-research"
+      ]
+    },
+    {
+      "firstName": "Ray",
+      "lastName": "Dorsey",
+      "organizations": [
+        "university-of-rochester-medical-center"
+      ]
+    },
+    {
+      "firstName": "Reza",
+      "lastName": "Ghanadan",
+      "organizations": [
+        "defense-advanced-research-projects-agency"
+      ]
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Dobson",
+      "organizations": [
+        "kings-college-london"
+      ]
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Allaway",
+      "organizations": [
+        "sage-bionetworks",
+        "columbia-university"
+      ]
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Kuffner",
+      "organizations": [
+        "ludwig-maximilian-university-of-munich"
+      ]
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Plenge",
+      "organizations": [
+        "merck-co"
+      ]
+    },
+    {
+      "firstName": "Roberto",
+      "lastName": "Romero",
+      "organizations": [
+        "eunice-kennedy-shriver-national-institute"
+      ]
+    },
+    {
+      "firstName": "Rong",
+      "lastName": "Chai",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Ross",
+      "lastName": "Cagan",
+      "organizations": [
+        "icahn-school-of-medicine-at-mount-sinai"
+      ]
+    },
+    {
+      "firstName": "Ruben",
+      "lastName": "Abagyan",
+      "organizations": [
+        "university-of-california-san-diego"
+      ]
+    },
+    {
+      "firstName": "Sach",
+      "lastName": "Mukherjee",
+      "organizations": [
+        "nathan-s-kline-institute-for-psychiatric-research"
+      ]
+    },
+    {
+      "firstName": "Sage",
+      "lastName": "Davis",
+      "organizations": [
+        "eck-institute-for-global-health"
+      ]
+    },
+    {
+      "firstName": "Samuel",
+      "lastName": "Payne",
+      "organizations": [
+        "pacific-northwest-national-laboratory"
+      ]
+    },
+    {
+      "firstName": "Sara",
+      "lastName": "Howell",
+      "organizations": [
+        "broad-institute"
+      ]
+    },
+    {
+      "firstName": "Sarvenaz",
+      "lastName": "Choobdar",
+      "organizations": [
+        "university-of-lausanne"
+      ]
+    },
+    {
+      "firstName": "Satrajit",
+      "lastName": "Ghosh",
+      "organizations": [
+        "massachusetts-institute-of-technology"
+      ]
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Chasalow",
+      "organizations": [
+        "bristol-myers-squibb"
+      ]
+    },
+    {
+      "firstName": "Sean",
+      "lastName": "Mooney",
+      "organizations": [
+        "university-of-washington"
+      ]
+    },
+    {
+      "firstName": "Shannon",
+      "lastName": "Carter",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Sherri",
+      "lastName": "Coronado",
+      "organizations": [
+        "national-cancer-institute"
+      ]
+    },
+    {
+      "firstName": "Simon",
+      "lastName": "Wilkinson",
+      "organizations": [
+        "numerate"
+      ]
+    },
+    {
+      "firstName": "Solly",
+      "lastName": "Sieberts",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Friend",
+      "organizations": [
+        "sage-bionetworks",
+        "apple-health"
+      ]
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Newhouse",
+      "organizations": [
+        "kings-college-london"
+      ]
+    },
+    {
+      "firstName": "Steven",
+      "lastName": "Hill",
+      "organizations": [
+        "nathan-s-kline-institute-for-psychiatric-research"
+      ]
+    },
+    {
+      "firstName": "Steven",
+      "lastName": "Kornblau",
+      "organizations": [
+        "md-anderson-cancer-center"
+      ]
+    },
+    {
+      "firstName": "Stockard",
+      "lastName": "Simon",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Sumir",
+      "lastName": "Panji",
+      "organizations": [
+        "h3abionet"
+      ]
+    },
+    {
+      "firstName": "Sven",
+      "lastName": "Bergmann",
+      "organizations": [
+        "university-of-lausanne"
+      ]
+    },
+    {
+      "firstName": "Taylor",
+      "lastName": "Maxwell",
+      "organizations": [
+        "george-washington-university"
+      ]
+    },
+    {
+      "firstName": "Tero",
+      "lastName": "Aittokallio",
+      "organizations": [
+        "institute-for-molecular-medicine-finland"
+      ]
+    },
+    {
+      "firstName": "Thea",
+      "lastName": "Norman",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Cokelaer",
+      "organizations": [
+        "european-bioinformatics-institute"
+      ]
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Schaffter",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Thomas",
+      "lastName": "Yu",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Tien",
+      "lastName": "Tang",
+      "organizations": [
+        "rice-university"
+      ]
+    },
+    {
+      "firstName": "Tim",
+      "lastName": "Bergquist",
+      "organizations": [
+        "sage-bionetworks",
+        "university-of-washington",
+        "bristol-myers-squibb"
+      ]
+    },
+    {
+      "firstName": "Todd",
+      "lastName": "Golub",
+      "organizations": [
+        "broad-institute"
+      ]
+    },
+    {
+      "firstName": "Tom",
+      "lastName": "Yu",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Udi",
+      "lastName": "Rubin",
+      "organizations": [
+        "early-signal-foundation"
+      ]
+    },
+    {
+      "firstName": "Verena",
+      "lastName": "Chung",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "William",
+      "lastName": "Geese",
+      "organizations": [
+        "university-of-washington"
+      ]
+    },
+    {
+      "firstName": "William",
+      "lastName": "Marks",
+      "organizations": [
+        "verily"
+      ]
+    },
+    {
+      "firstName": "Xiaoyu",
+      "lastName": "Song",
+      "organizations": [
+        "mount-sinai"
+      ]
+    },
+    {
+      "firstName": "Yao",
+      "lastName": "Yan",
+      "organizations": [
+        "sage-bionetworks",
+        "university-of-washington"
+      ]
+    },
+    {
+      "firstName": "Yooree",
+      "lastName": "Chae",
+      "organizations": [
+        "sage-bionetworks"
+      ]
+    },
+    {
+      "firstName": "Zhi",
+      "lastName": "Li",
+      "organizations": [
+        "new-york-university"
+      ]
+    },
+    {
+      "firstName": "Zoltan",
+      "lastName": "Kutalik",
+      "organizations": [
+        "lausanne-university-hospital"
+      ]
+    }
+  ]
+}
+

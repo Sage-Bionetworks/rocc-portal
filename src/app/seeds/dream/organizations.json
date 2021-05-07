@@ -146,6 +146,12 @@
       "shortName": "EMBL-EBI"
     },
     {
+      "organizationId": "evidation-health",
+      "name": "Evidation Health",
+      "url": "https://evidation.com/",
+      "shortName": "Evidation"
+    },
+    {
       "organizationId": "feinstein-institutes-for-medical-research",
       "name": "Feinstein Institutes for Medical Research",
       "url": "https://feinstein.northwell.edu/",
