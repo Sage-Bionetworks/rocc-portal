@@ -54,9 +54,6 @@ export class DatabaseSeedComponent implements OnInit {
       .pipe(
         mergeMap(() => addTags$),
         tap(console.log),
-        // mergeMap(() => addPersons$)
-      )
-      .pipe(
         mergeMap(() => addOrganizations$),
         tap(console.log),
       )
