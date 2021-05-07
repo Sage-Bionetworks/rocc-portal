@@ -60,7 +60,7 @@ export class DatabaseSeedComponent implements OnInit {
         },
       ))
     );
-  
+
 
     removeDocuments$
       .pipe(
@@ -73,7 +73,7 @@ export class DatabaseSeedComponent implements OnInit {
         tap(console.log)
       )
       .subscribe(() => {
-        console.log("done");
+        console.log('done');
       }, err => console.log(err));
   }
 }
