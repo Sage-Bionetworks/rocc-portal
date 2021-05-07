@@ -34,22 +34,22 @@ export class DatabaseSeedComponent implements OnInit {
 
     // const tags: Tag[] = tagList.tags;
     const tags = tagList.tags; // TODO: replace by above line when Tag.tagId is no longer optional
-    const Organizations = orgList.organizations;
+    const organizations = orgList.organizations;
 
     const addTags$ = forkJoin(
       tags.map(tag => this.tagService.createTag(tag.tagId, {}))
     );
-    
+
     const addOrganizations$ = forkJoin(
-      Organizations.map(org => this.organizationService.createOrganization(
-        org.organizationId, 
-        {
-        "name": org.name,
-        "url": org.url,
-        "shortName": org.shortName
-        }))
+      organizations.map(org => this.organizationService.createOrganization(
+        org.organizationId, {
+          name: org.name,
+          url: org.url,
+          shortName: org.shortName
+        }
+      ))
     );
-    
+
     removeDocuments$
       .pipe(
         mergeMap(() => addTags$),
